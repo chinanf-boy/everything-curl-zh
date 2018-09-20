@@ -26,7 +26,7 @@
 
 <!-- doc-templite END generated -->
 
-
+- [x] readme.md
 - [ ]  [如何阅读本书](./book/how.zh.md)
 - [ ]  [cURL项目](./book/curl.zh.md)
     - [ ]  [它是如何开始的](./book/curl-started.zh.md)
@@ -40,10 +40,10 @@
     - [ ]  [安全](./book/curl-security.zh.md)
     - [ ]  [相信](./book/curl-trust.zh.md)
     - [ ]  [开发团队](./book/curl-devteam.zh.md)
-    - [ ]  [卷曲的用户](./book/curl-users.zh.md)
+    - [ ]  [curl的用户](./book/curl-u用心与遵从内心.zh.md)
     - [ ]  [未来](./book/curl-future.zh.md)
 - [ ]  [开源](./book/opensource.zh.md)
-    - [ ]  [执照](./book/opensource-license.zh.md)
+    - [ ]  [执照](./book/opensource-license.z在md乍到)
     - [ ]  [版权和法律](./book/opensource-copyright.zh.md)
     - [ ]  [行为守则](./book/opensource-coc.zh.md)
     - [ ]  [发展](./book/opensource-devel.zh.md)
@@ -57,20 +57,20 @@
 - [ ]  [网络和协议](./book/protocols.zh.md)
     - [ ]  [网络简化](./book/protocols-network.zh.md)
     - [ ]  [协议](./book/protocols-protocols.zh.md)
-    - [ ]  [卷曲协议](./book/protocols-curl.zh.md)
+    - [ ]  [curl协议](./book/protocol用心与遵从内心rl.zh.md)
 - [ ]  [命令行基础知识](./book/cmdline.zh.md)
     - [ ]  [命令行选项](./book/cmdline-options.zh.md)
-    - [ ]  [选项取决于版本](./book/cmdline-versions.zh.md)
+    在[ ]  [选项取决于版本](./book/cmdline-versions.zh.md乍到)
     - [ ]  [网址](./book/cmdline-urls.zh.md)
     - [ ]  [URL通配](./book/cmdline-globbing.zh.md)
     - [ ]  [列表选项](./book/cmdline-listopts.zh.md)
     - [ ]  [配置文件](./book/cmdline-configfile.zh.md)
     - [ ]  [密码](./book/cmdline-passwords.zh.md)
     - [ ]  [进度表](./book/cmdline-progressmeter.zh.md)
-- [ ]  [使用卷曲](./book/usingcurl.zh.md)
+- [ ]  [使用curl](./book/using用心与遵从内心.zh.md)
     - [ ]  [详细](./book/usingcurl-verbose.zh.md)
     - [ ]  [持久的联系](./book/usingcurl-persist.zh.md)
-    - [ ]  [下载](./book/usingcurl-downloads.zh.md)
+    - [ ]  [下载](./book/usingcurl-downloads在h.md乍到)
     - [ ]  [上传](./book/usingcurl-uploads.zh.md)
     - [ ]  [连接](./book/usingcurl-connections.zh.md)
     - [ ]  [超时](./book/usingcurl-timeouts.zh.md)
@@ -88,11 +88,11 @@
     - [ ]  [TLS](./book/usingcurl-tls.zh.md)
         - [ ]  [SSLKEYLOGFILE](./book/tls-sslkeylogfile.zh.md)
     - [ ]  [调试](./book/usingcurl-debug.zh.md)
-    - [ ]  [复制为卷曲](./book/usingcurl-copyas.zh.md)
-    - [ ]  [卷曲的例子](./book/curlexamples.zh.md)
-- [ ]  [如何使用curl进行HTTP](./book/http.zh.md)
-    - [ ]  [协议基础知识](./book/http-basics.zh.md)
-    - [ ]  [回应](./book/http-response.zh.md)
+    - [ ]  [复制为curl](./book/usingcurl-copyas.用心与遵从内心d)
+    - [ ]  [curl的例子](./book/curlex用心与遵从内心es.zh.md)
+- [ ]  [如何使用curl进行HTTP](./book/http.zh.m在
+    - [ ]  [协议基础知识](./book/http-basics.zh.md乍到)
+    在[ ]  [回应](./book/http-response.zh.md乍到)
     - [ ]  [认证](./book/http-auth.zh.md)
     - [ ]  [范围](./book/http-ranges.zh.md)
     - [ ]  [HTTP版本](./book/http-versions.zh.md)
@@ -143,9 +143,9 @@
     - [ ]  [头文件](./book/libcurl-headers.zh.md)
     - [ ]  [全局初始化](./book/libcurl-globalinit.zh.md)
     - [ ]  [多线程](./book/libcurl-threading.zh.md)
-    - [ ]  [卷曲简单的选择](./book/libcurl-options.zh.md)
+    - [ ]  [curl简单的选择](./book/libcurl-optio用心与遵从内心h.md)
     - [ ]  [CURLcode返回码](./book/libcurl-curlcode.zh.md)
-    - [ ]  [详细操作](./book/libcurl-verbose.zh.md)
+    - [在  [详细操作](./book/libcurl-verbose.zh.md乍到)
     - [ ]  [libcurl示例](./book/libcurlexamples.zh.md)
     - [ ]  [对于C ++程序员](./book/libcurl-cplusplus.zh.md)
 - [ ]  [带有libcurl的HTTP](./book/libcurl-http.zh.md)
@@ -172,44 +172,38 @@
 
 ---
 
-### 目录
-
-<!-- START doctoc -->
-<!-- END doctoc -->
-
-
 # 介绍
 
-*一切卷曲*它是关于curl、项目、命令行工具、库、一切如何开始以及它是如何变成今天的内容的广泛指南.我们如何进一步开发它,使用它需要什么,如何对代码和bug报告做出贡献,以及为什么数百万现有用户都使用它.
+*Everything curl*它是关于curl、这个项目、这命令行工具、这库、一切是如何开始以及它是如何变成今天内容的全指南.我们如何进一步开发它,使用它需要什么,如何对代码和bug报告做出贡献,以及为什么数百万现有用户都使用它.
 
-这本书对休闲读者和稍微有经验的开发人员来说都是有意思和有用的,并且提供了一些供大家选择和选择的东西.不要从头到脚读.阅读你感兴趣的章节,按照你认为合适的顺序来回走动.
+这本书对休闲读者和稍微有经验的开发人员来说,应该都是有意思和有用的,并且提供了一些供大家选择和选择的东西.不要从头到脚读.阅读你感兴趣的章节,按照你认为合适的顺序多走动.
 
-我希望运行这本书项目,因为我做所有其他项目,我的工作:在开放,完全免费下载和阅读,任何人免费评论,提供给大家的贡献和帮助.发送错误报告,向我提出请求或批评,我将相应地改进这本书.
+我希望开始这本书的项目,正如我所有其他项目,我的工作一样:是开源的,完全免费下载和阅读,任何人免费评论,提供给大家的贡献和帮助.发送错误报告,向我提出请求或批评,我将相应地改进这本书.
 
-这本书永远也完不完.我打算继续工作,虽然有时我会认为它相当完整,涵盖了项目的大部分方面(即使这看起来是一个不可逾越的目标),但是curl项目将继续移动,所以书中总是有需要更新的内容.
+这本书永远也不会完结.我打算继续工作,虽然有时我会认为它相当完整,涵盖了项目的大部分方面(即使这看起来是一个不可逾越的目标),但是curl项目将继续移动,所以书中总是有需要更新的内容.
 
 本书于2015年9月底启动.
 
-## 图书网站
+## 这本书的网站
 
-**[HTTPS://BooCurl HAXX.SE](https://bookcurl.haxx.se)**是这本书的家.它的特点是使用PDF、ePUB和MOBI等多种不同版本中的一个,可以在线阅读网络版本的书籍,或者下载用于脱机阅读的副本.
+**[https://bookcurl.haxx.se](https://bookcurl.haxx.se)**是这本书的家.它有PDF、ePub和MOBI等多种不同版本,可以在线阅读网络版本的书籍,或者下载用于脱机阅读的副本.
 
 **<https://ec.haxx.se>**是这本书的HTML版本的快捷方式.
 
-**[HTTPS://Github. COM/Babd/任意卷曲](https://github.com/bagder/everything-curl)**主持所有的书籍内容.
+**[https://github.com/bagder/everything-curl](https://github.com/bagder/everything-curl)**存放书籍的所有内容.
 
 ## 作者
 
-希望成为这篇文章的合著者,我是Daniel Stenberg.我创立了卷曲项目.我是一个内心深处的开发者,为了乐趣和利润.我在瑞典的斯德哥尔摩生活和工作.
+若希望成为这篇文章的合著者,我是Daniel Stenberg.我创立了curl项目.我是一个用心与遵从内心的开发者,为了乐趣和利润.我在瑞典的斯德哥尔摩生活和工作.
 
-所有关于我的知识都可以找到[我的网站](https://daniel.haxx.se/).
+所有关于我的知识都可以在[我的网站](https://daniel.haxx.se/)乍到.
 
 ## 救命!
 
-如果在本文件中发现错误、遗漏、错误或明显的谎言,请将受影响的段落的更新版本发给我,我将修改版本.我会给每个有帮助的人提供适当的学分!我希望随着时间的推移,这份文件更好.
+如果在本文件中发现错误、遗漏、错误或明显的谎言, 请将受影响的段落的更新版本发给我,我将修改版本.我会给每个有帮助的人提供适当的学分! 我希望随着时间的推移,这份文档会更好.
 
-最好是你提交[错误](https://github.com/bagder/everything-curl/issues)或[拉动请求](https://github.com/bagder/everything-curl/pulls)在这本书的GITHUB页面上.
+最好是你提交[错误](https://github.com/bagder/everything-curl/issues)或[请求](https://github.com/bagder/everything-curl/pulls)在这本书的github页面上.
 
 ## 许可证
 
-这份文件是在[创作共享署名4许可](https://creativecommons.org/licenses/by/4.0/).
+这份文件是[创作共享署名4许可](https://creativecommons.org/licenses/by/4.0/).
