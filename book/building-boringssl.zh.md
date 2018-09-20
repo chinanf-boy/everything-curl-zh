@@ -1,5 +1,5 @@
 
-# 用BurnSSL构建卷曲
+# 用BurnSSL构建cURL
 
 ## 建造博林SSL
 
@@ -26,14 +26,14 @@ $ ln -s ../build/ssl/libssl.a
 $ ln -s ../build/crypoto/libcrypto.a
 ```
 
-## 配置卷曲
+## 配置cURL
 
 `LIBS=-lpthread ./configure --with-ssl=$HOME/src/boringssl`(在这里我指出了BurnStl树的根)
 
 验证在配置结束时,它表示检测到使用的BurnStl.
 
-## 卷曲
+## cURL
 
-跑`make`在卷曲源树中.
+跑`make`在cURL源树中.
 
-现在你可以正常安装卷曲.`make install`等.
+现在你可以正常安装cURL.`make install`等.

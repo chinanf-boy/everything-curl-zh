@@ -21,7 +21,7 @@ curl --user daniel:secret http://example.com/
 
 当要求使用单个(指定或隐含的)身份验证方法进行HTTP传输时,curl将把已经位于连接上的第一个请求中的身份验证头插入.
 
-如果你宁愿先卷曲*测试*如果确实需要身份验证,您可以要求curl解决这个问题,然后自动使用它知道的最安全的方法`--anyauth`. 这使得CURL尝试未经身份验证的请求,然后在必要时切换到身份验证:
+如果你宁愿先cURL*测试*如果确实需要身份验证,您可以要求curl解决这个问题,然后自动使用它知道的最安全的方法`--anyauth`. 这使得CURL尝试未经身份验证的请求,然后在必要时切换到身份验证:
 
 ```
 curl --anyauth --user daniel:secret http://example.com/

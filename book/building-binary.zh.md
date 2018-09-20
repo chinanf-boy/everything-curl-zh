@@ -3,7 +3,7 @@
 
 有许多友好的人和组织将curl和libcurl的二进制包组合在一起,并使它们可供下载.
 
-许多操作系统提供了一个"包储存库",其中包含软件包供您安装.从[卷曲下载页面](https://curl.haxx.se/download.html)您还可以遵循普通操作系统的普通二进制包的链接.
+许多操作系统提供了一个"包储存库",其中包含软件包供您安装.从[cURL下载页面](https://curl.haxx.se/download.html)您还可以遵循普通操作系统的普通二进制包的链接.
 
 ## 从包库中安装
 
@@ -15,7 +15,7 @@ curl和libcurl已经存在很长时间了,大多数Linux发行版、BSD版本和
 
 `apt`是在Debian Linux和Ubuntu Linux发行版和衍生品上安装预构建包的工具.
 
-要安装卷曲命令行工具,通常只需要
+要安装cURL命令行工具,通常只需要
 
 ```
 apt install curl

@@ -7,6 +7,6 @@
 
 ### 过去的安全问题
 
-在过去的几年里,我们面临着与安全相关的问题.我们努力工作[记录每一个问题](https://curl.haxx.se/docs/security.html)详细列出所有细节并明确说明以帮助用户.CURL的用户应该能够找出它们特定的卷曲版本和用例容易受到的问题.
+在过去的几年里,我们面临着与安全相关的问题.我们努力工作[记录每一个问题](https://curl.haxx.se/docs/security.html)详细列出所有细节并明确说明以帮助用户.CURL的用户应该能够找出它们特定的cURL版本和用例容易受到的问题.
 
-为了帮助我们,我们提出[瀑布图](https://curl.haxx.se/docs/vulnerabilities.html)显示所有漏洞如何影响哪个卷曲版本,自该项目诞生以来,我们拥有所有已知安全问题的完整列表.
+为了帮助我们,我们提出[瀑布图](https://curl.haxx.se/docs/vulnerabilities.html)显示所有漏洞如何影响哪个cURL版本,自该项目诞生以来,我们拥有所有已知安全问题的完整列表.

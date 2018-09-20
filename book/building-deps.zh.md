@@ -3,7 +3,7 @@
 
 制作好软件的关键是建立在其他伟大软件之上.通过使用许多其他人使用的库,我们重新发明相同的东西的时间更少,我们得到更可靠的软件,因为有更多的人使用相同的代码.
 
-CURL提供的一系列完整的特性要求它被构建为使用一个或多个外部库.它们是卷曲的依赖关系.他们中没有一个是*必修的*但是大多数用户都希望至少使用其中的一些.
+CURL提供的一系列完整的特性要求它被构建为使用一个或多个外部库.它们是cURL的依赖关系.他们中没有一个是*必修的*但是大多数用户都希望至少使用其中的一些.
 
 ## zlib
 
@@ -45,7 +45,7 @@ CURL可以用C-ARES来构建,以便能够进行异步名称解析.启用异步�
 
 [HTTPS://ActuxPAD.NET/LIBMETALLink](https://launchpad.net/libmetalink)
 
-用LyMealLink构建卷曲以支持它[金属链](https://www.metalinker.org/)格式,它允许CURL从多个地方下载相同的文件.它包括校验和等等.见卷曲[--金属线](https://curl.haxx.se/docs/manpage.html#--metalink)选择权.
+用LyMealLink构建cURL以支持它[金属链](https://www.metalinker.org/)格式,它允许CURL从多个地方下载相同的文件.它包括校验和等等.见cURL[--金属线](https://curl.haxx.se/docs/manpage.html#--metalink)选择权.
 
 ## LIPPSL
 

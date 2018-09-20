@@ -3,7 +3,7 @@
 
 为了让curl支持基于TLS的协议,比如HTTPS、FTPS、SMTPS、POP3S、IMAPS等等,您需要使用第三方TLS库来构建,因为curl并不实现TLS协议本身.
 
-卷曲是用大量的TLS库编写的:
+cURL是用大量的TLS库编写的:
 
 -   博林SSL
 -   GSKit(OS/400专用)

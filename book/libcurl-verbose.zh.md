@@ -9,7 +9,7 @@
 CURLcode ret = curl_easy_setopt(handle, CURLOPT_VERBOSE, 1L);
 ```
 
-当libcurl被告知详细时,它将在传输过程中向stderr提及与传输相关的细节和信息.这是可怕的,找出为什么事情失败,并准确地了解什么样的卷曲当你问不同的事情.可以通过改变STDRR来重定向其他地方的输出.`CURLOPT_STDERR`或者你可以用调试回调的方式获得更多的信息(在后面的部分中进一步解释).
+当libcurl被告知详细时,它将在传输过程中向stderr提及与传输相关的细节和信息.这是可怕的,找出为什么事情失败,并准确地了解什么样的cURL当你问不同的事情.可以通过改变STDRR来重定向其他地方的输出.`CURLOPT_STDERR`或者你可以用调试回调的方式获得更多的信息(在后面的部分中进一步解释).
 
 ### 追踪一切
 
@@ -32,6 +32,6 @@ int my_trace(CURL *handle, curl_infotype type, char *ptr, size_t size,
 
 回调必须返回0或LIbCURL将认为它是一个错误,并中止传输.
 
-在卷曲网站上,我们举了一个例子[调试C](https://curl.haxx.se/libcurl/c/debug.html)这包括一个简单的跟踪函数来获取灵感.
+在cURL网站上,我们举了一个例子[调试C](https://curl.haxx.se/libcurl/c/debug.html)这包括一个简单的跟踪函数来获取灵感.
 
 还有更多的细节在[CurLopt\*Debug函数页面](https://curl.haxx.se/libcurl/c/CURLOPT_DEBUGFUNCTION.html).

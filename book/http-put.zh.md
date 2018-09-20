@@ -9,7 +9,7 @@
 curl -T localfile http://example.com/new/resource/file
 ```
 
-…--t将暗示一个放和告诉CURL哪个文件要发送.但是POST和PUT之间的相似性还允许您使用常规卷曲POST机制,使用`-d`但要求它使用一个代替:
+…--t将暗示一个放和告诉CURL哪个文件要发送.但是POST和PUT之间的相似性还允许您使用常规cURLPOST机制,使用`-d`但要求它使用一个代替:
 
 ```
 curl -d "data to PUT" -X PUT http://example.com/new/resource/file

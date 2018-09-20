@@ -27,7 +27,7 @@ multi_socket支持多个并行传输(全部在同一个线程中完成),并且�
 
 ### 套接字回调
 
-LICORL通知应用程序套接字活动等待调用回调[卷曲功能](https://curl.haxx.se/libcurl/c/CURLMOPT_SOCKETFUNCTION.html). 您的应用程序需要实现这样的功能:
+LICORL通知应用程序套接字活动等待调用回调[cURL功能](https://curl.haxx.se/libcurl/c/CURLMOPT_SOCKETFUNCTION.html). 您的应用程序需要实现这样的功能:
 
 ```
 int socket_callback(CURL *easy,      /* easy handle */
@@ -59,7 +59,7 @@ ret = curl_multi_socket_action(multi_handle,
 
 应用程序处于控制状态,将等待套接字活动.但即使没有套接字的活动,也有一些事情需要做.超时事件、调用进度回调、重试开始或传输失败花费了太长时间等等.要使其工作,应用程序还必须确保处理libcurl设置的单次超时.
 
-LIGBURL用TimeReLead回调设置超时[卷曲时间函数](https://curl.haxx.se/libcurl/c/CURLMOPT_TIMERFUNCTION.html):
+LIGBURL用TimeReLead回调设置超时[cURL时间函数](https://curl.haxx.se/libcurl/c/CURLMOPT_TIMERFUNCTION.html):
 
 ```
 int timer_callback(multi_handle,   /* multi handle */

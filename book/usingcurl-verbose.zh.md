@@ -11,7 +11,7 @@ $ curl -v http://example.com -o saved
 * Rebuilt URL to: http://example.com/
 ```
 
-好的,我们用一个URL调用卷曲,它认为不完整,所以它帮助我们,它在移动之前添加了一个尾部斜杠.
+好的,我们用一个URL调用cURL,它认为不完整,所以它帮助我们,它在移动之前添加了一个尾部斜杠.
 
 ```
 *   Trying 93.184.216.34...
@@ -23,7 +23,7 @@ $ curl -v http://example.com -o saved
 * Connected to example.com (93.184.216.34) port 80 (#0)
 ```
 
-它奏效了!连接到站点的卷发,这里解释了名称如何映射到IP地址以及它连接到哪个端口."(0)"部分是内部数卷曲给出了这种联系.如果在同一命令行中尝试多个URL,可以看到它使用更多的连接或重用连接,因此连接计数器可能根据curl决定需要做什么而增加或不增加.
+它奏效了!连接到站点的卷发,这里解释了名称如何映射到IP地址以及它连接到哪个端口."(0)"部分是内部数cURL给出了这种联系.如果在同一命令行中尝试多个URL,可以看到它使用更多的连接或重用连接,因此连接计数器可能根据curl决定需要做什么而增加或不增加.
 
 如果我们使用HTTPS\://URL而不是HTTP URL,那么还将有一大堆行解释curl如何使用CA证书来验证服务器的证书,以及服务器证书中的一些细节,等等,包括选择了哪些密码和更多的TLS细节.
 
@@ -162,7 +162,7 @@ $ curl -v --trace-time http://example.com
 
 ### --写出来
 
-这是一个经常被遗忘的小宝石在卷曲兵工厂的命令行选项.`--write-out`或者只是`-w`简而言之,在传输完成之后写出信息,并且它具有可以在输出中包括的大量变量、用值设置的变量以及来自传输的信息.
+这是一个经常被遗忘的小宝石在cURL兵工厂的命令行选项.`--write-out`或者只是`-w`简而言之,在传输完成之后写出信息,并且它具有可以在输出中包括的大量变量、用值设置的变量以及来自传输的信息.
 
 通过将字符串传递给该选项,您可以告诉CURL编写一个字符串:
 
@@ -196,17 +196,17 @@ curl -w "Type: %{content_type}\nCode: %{response_code}\n" http://example.com
 
 #### 可用--写出变量
 
-这些变量中的一些在旧的卷曲版本中是不可用的.
+这些变量中的一些在旧的cURL版本中是不可用的.
 
 -   %{CordNoType }显示请求文档的内容类型,如果有任何类型的话.
 
--   %{FielNeMyActudi}显示了CURL写入的最终文件名.这是唯一有意义的,如果卷曲被告知要写入文件与`--remote-name`或`--output`选择权.这是最有用的结合`--remote-header-name`选择权.
+-   %{FielNeMyActudi}显示了CURL写入的最终文件名.这是唯一有意义的,如果cURL被告知要写入文件与`--remote-name`或`--output`选择权.这是最有用的结合`--remote-header-name`选择权.
 
--   %{fppNexyyPult}显示在登录到远程FTP服务器时结束的初始路径卷曲.
+-   %{fppNexyyPult}显示在登录到远程FTP服务器时结束的初始路径cURL.
 
 -   %{ReaveSyCult}显示在最后一次传输中发现的数字响应代码.
 
--   %{HppInConnect }显示了在最后一个响应(从代理)到卷曲连接请求中找到的数字代码.
+-   %{HppInConnect }显示了在最后一个响应(从代理)到cURL连接请求中找到的数字代码.
 
 -   %{LoalAlxIP}显示最近完成的连接的本地端的IP地址可以是IPv4或IPv6.
 
@@ -230,9 +230,9 @@ curl -w "Type: %{content_type}\nCode: %{response_code}\n" http://example.com
 
 -   %{siZeAppLoad }显示了上传的字节总数.
 
--   %{SturfyAdvult}显示以每秒钟字节为单位测量的完整下载的卷曲的平均下载速度.
+-   %{SturfyAdvult}显示以每秒钟字节为单位测量的完整下载的cURL的平均下载速度.
 
--   %{SturixAppLoad }显示了平均上传速度,即以字节为单位每秒测量完整上传的卷曲速度.
+-   %{SturixAppLoad }显示了平均上传速度,即以字节为单位每秒测量完整上传的cURL速度.
 
 -   %{sLyValIFyAuthReult}显示了请求的SSL对等证书验证的结果.0表示验证成功.
 
@@ -254,6 +254,6 @@ curl -w "Type: %{content_type}\nCode: %{response_code}\n" http://example.com
 
 ### 沉默
 
-当然,冗长的反义词是使卷曲变得更安静.与`-s`(或)`--silent`选项使卷曲开关关闭进度表,不输出任何错误消息,当出现错误时.它变得哑巴了.它仍然会输出你要求下载的数据.
+当然,冗长的反义词是使cURL变得更安静.与`-s`(或)`--silent`选项使cURL开关关闭进度表,不输出任何错误消息,当出现错误时.它变得哑巴了.它仍然会输出你要求下载的数据.
 
 通过静默激活,您可以要求它仍然通过添加错误来输出错误消息.`-S`或`--show-error`.

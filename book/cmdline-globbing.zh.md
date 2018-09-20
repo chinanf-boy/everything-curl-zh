@@ -29,7 +29,7 @@ curl -O http://example.com/[0-100:2].png
 
 ### 字母范围
 
-卷曲也可以按字母顺序排列,就像一个站点有一个名为A到Z的部分:
+cURL也可以按字母顺序排列,就像一个站点有一个名为A到Z的部分:
 
 ```
 curl -O http://example.com/section[a-z].html

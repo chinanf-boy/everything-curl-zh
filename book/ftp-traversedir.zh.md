@@ -5,7 +5,7 @@
 
 ### 多小波分析
 
-CURL可以为文件树层次结构中的每个单独目录更改一个目录(CWD)命令.如果完整路径是`one/two/three/file.txt`那个方法意味着做三`CWD`请求之前的命令`file.txt`文件传输.因此,如果路径是多层次的,那么该方法会产生相当多的命令.这种方法是由早期规范(RFC 1738)规定的,它是如何卷曲默认行为:
+CURL可以为文件树层次结构中的每个单独目录更改一个目录(CWD)命令.如果完整路径是`one/two/three/file.txt`那个方法意味着做三`CWD`请求之前的命令`file.txt`文件传输.因此,如果路径是多层次的,那么该方法会产生相当多的命令.这种方法是由早期规范(RFC 1738)规定的,它是如何cURL默认行为:
 
 ```
 curl --ftp-method multicwd ftp://example.com/one/two/three/file.txt

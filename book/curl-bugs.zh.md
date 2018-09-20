@@ -27,7 +27,7 @@
 
 如果开发人员不能理解错误报告、不能再现错误报告或在处理错误报告时面临其他问题,则提交但被提交者放弃的错误报告将面临关闭的风险.不要放弃你的报告!
 
-报告卷曲错误[Github上的卷曲虫跟踪器](https://github.com/curl/curl/issues)!
+报告cURL错误[Github上的cURL虫跟踪器](https://github.com/curl/curl/issues)!
 
 ## 测试
 

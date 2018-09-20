@@ -3,7 +3,7 @@
 
 ## FTP目录列表
 
-通过确保URL以尾随斜线结束,可以列出具有卷曲的远程FTP目录.如果URL以斜杠结尾,卷曲将假定它是要列出的目录.如果它实际上不是一个目录,那么你很可能会得到一个错误.
+通过确保URL以尾随斜线结束,可以列出具有cURL的远程FTP目录.如果URL以斜杠结尾,cURL将假定它是要列出的目录.如果它实际上不是一个目录,那么你很可能会得到一个错误.
 
 ```
 curl ftp://ftp.example.com/directory/
@@ -36,7 +36,7 @@ curl -T localfile ftp://ftp.example.com/dir/path/remote-file
 curl -T localfile ftp://ftp.example.com/dir/path/
 ```
 
-卷曲也支持[通配符](cmdline-globbing.md)在-t参数中,您可以选择轻松地上传一系列或一系列文件:
+cURL也支持[通配符](cmdline-globbing.md)在-t参数中,您可以选择轻松地上传一系列或一系列文件:
 
 ```
 curl -T image[1-99].jpg ftp://ftp.example.com/upload/

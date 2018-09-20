@@ -49,7 +49,7 @@ user-agent = "Everything-is-an-agent"
 user-agent = Everything-is-an-agent
 ```
 
-最后,如果要在配置文件中提供URL,则必须这样做.`--url`方式,或者只是`url`而不是在命令行上,基本上所有不是选项的东西都被假定为URL.所以你提供了一个卷曲的URL,像这样:
+最后,如果要在配置文件中提供URL,则必须这样做.`--url`方式,或者只是`url`而不是在命令行上,基本上所有不是选项的东西都被假定为URL.所以你提供了一个cURL的URL,像这样:
 
 ```
 url = "http://example.com"
@@ -57,7 +57,7 @@ url = "http://example.com"
 
 ### 默认配置文件
 
-当调用卷曲时,它总是(除非)`-q`用于检查默认配置文件并在找到时使用它.它检查的文件名是`.curlrc`关于类UNIX系统`_curlrc`在Windows上.
+当调用cURL时,它总是(除非)`-q`用于检查默认配置文件并在找到时使用它.它检查的文件名是`.curlrc`关于类UNIX系统`_curlrc`在Windows上.
 
 默认配置文件按以下顺序在以下位置检查:
 

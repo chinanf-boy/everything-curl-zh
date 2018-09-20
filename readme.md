@@ -27,8 +27,8 @@
 <!-- doc-templite END generated -->
 
 - [x] readme.md
-- [ ]  [如何阅读本书](./book/how.zh.md)
-- [ ]  [cURL项目](./book/curl.zh.md)
+- [x]  [如何阅读本书](./book/how.zh.md)
+- [x]  [cURL项目](./book/curl.zh.md)
     - [ ]  [它是如何开始的](./book/curl-started.zh.md)
     - [ ]  [名字](./book/curl-name.zh.md)
     - [ ]  [curl做什么?](./book/curl-does.zh.md)

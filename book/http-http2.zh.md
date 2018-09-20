@@ -1,7 +1,7 @@
 
 ## HTTP/2
 
-CURL支持http\://http\://http\://url 2,假设卷曲是用适当的先决条件构建的.当给定HTTPS URL时,它甚至默认使用HTTP/2,因为这样做意味着没有惩罚,并且当curl与不支持HTTP/2的站点一起使用时,请求将改为协商HTTP/1.1.
+CURL支持http\://http\://http\://url 2,假设cURL是用适当的先决条件构建的.当给定HTTPS URL时,它甚至默认使用HTTP/2,因为这样做意味着没有惩罚,并且当curl与不支持HTTP/2的站点一起使用时,请求将改为协商HTTP/1.1.
 
 然而,使用http\://url,对HTTP/2的升级是用`Upgrade:`当看到这种报头时,可能会导致额外的往返,甚至可能更麻烦、很大一部分旧服务器将返回400个响应.
 
@@ -13,7 +13,7 @@ CURL支持http\://http\://http\://url 2,假设卷曲是用适当的先决条件�
 curl --http2 http://example.com/
 ```
 
-如果卷曲不支持HTTP/2,那么命令行会返回这样的错误.运行`curl -V`将显示你的卷曲版本支持它.
+如果cURL不支持HTTP/2,那么命令行会返回这样的错误.运行`curl -V`将显示你的cURL版本支持它.
 
 如果您碰巧已经知道服务器使用HTTP/2(例如,在您自己的受控环境中,您确切地知道机器中运行的是什么),则可以缩短HTTP/2"协商"的时间`--http2-prior-knowledge`.
 

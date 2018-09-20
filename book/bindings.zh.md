@@ -1,7 +1,7 @@
 
 # 绑定
 
-富有创造力的人为各种环境和编程语言编写了绑定或接口.使用其中之一可以让您利用您喜欢的语言或系统中的卷曲能力.在撰写本文时,这是所有已知接口的列表.
+富有创造力的人为各种环境和编程语言编写了绑定或接口.使用其中之一可以让您利用您喜欢的语言或系统中的cURL能力.在撰写本文时,这是所有已知接口的列表.
 
 下面列出的绑定不是curl / libcurl分发存档的一部分,但必须单独下载和安装.
 
@@ -27,7 +27,7 @@
 | 朱莉娅                   | <https://github.com/JuliaWeb/LibCURL.jl>                              | JuliaWeb                                 |
 | 口齿不清                  | <https://common-lisp.net/project/cl-curl/>                            | 利亚姆希利                                    |
 | Lua(luacurl)          | <http://luacurl.luaforge.net/>                                        | 亚历山大马里诺夫                                 |
-| Lua的卷曲                | <https://github.com/Lua-cURL/Lua-cURLv3>                              | JürgenHötzel,Alexey Melnichuk            |
+| Lua的cURL                | <https://github.com/Lua-cURL/Lua-cURLv3>                              | JürgenHötzel,Alexey Melnichuk            |
 | .净                    | <https://github.com/masroore/CurlSharp>                               | Masroor Ehsan Choudhury,Jeffrey Phillips |
 | 的NodeJS               | <https://github.com/JCMais/node-libcurl>                              | 乔纳森卡多佐马查多                                |
 | OCaml的                | <https://sourceforge.net/projects/ocurl/>                             | Lars Nilsson                             |
@@ -41,7 +41,7 @@
 | 环                     | <https://ring-lang.sourceforge.io/doc1.3/libcurl.html>                | 马哈茂德法耶德                                  |
 | 红宝石(路边)               | <https://github.com/taf2/curb>                                        | 罗斯班福德                                    |
 | Ruby(ruby-curl-multi) | <http://curl-multi.rubyforge.org/>                                    | Kristjan Petursson和Keith Rarick          |
-| 锈(卷曲锈)                | <https://github.com/carllerche/curl-rust>                             | Carl Lerche                              |
+| 锈(cURL锈)                | <https://github.com/carllerche/curl-rust>                             | Carl Lerche                              |
 | Scheme Bigloo         | <https://www.metapaper.net/lisovsky/web/curl/>                        | 基里尔利索​​夫斯基                               |
 | Scilab                | <https://help.scilab.org/docs/current/fr_FR/getURL.html>              | Sylvestre Ledru                          |
 | 俚语                    | <https://www.jedsoft.org/slang/modules/curl.html>                     | 约翰·戴维斯                                   |
