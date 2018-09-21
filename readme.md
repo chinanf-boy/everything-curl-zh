@@ -29,8 +29,8 @@
 - [x] readme.md
 - [x]  [如何阅读本书](./book/how.zh.md)
 - [x]  [cURL项目](./book/curl.zh.md)
-    - [ ]  [它是如何开始的](./book/curl-started.zh.md)
-    - [ ]  [名字](./book/curl-name.zh.md)
+    - [x]  [它是如何开始的](./book/curl-started.zh.md)
+    - [x]  [名字](./book/curl-name.zh.md)
     - [ ]  [curl做什么?](./book/curl-does.zh.md)
     - [ ]  [项目沟通](./book/curl-comm.zh.md)
     - [ ]  [邮件列表礼仪](./book/curl-etiquette.zh.md)

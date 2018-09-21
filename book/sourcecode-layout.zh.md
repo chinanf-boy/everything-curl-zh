@@ -93,7 +93,7 @@ LBCURL中的VTLS子段是所有TLS后端的家,可以构建LBCURL来支持."虚�
 -   `SECURITY`我们如何处理安全漏洞
 -   `SSLCERTS`TLS证书处理记录
 -   `SSL-PROBLEMS`常见SSL问题及其原因
--   `THANKS`幸亏有这么多友好的人,今天卷发就存在了!
+-   `THANKS`幸亏有这么多友好的人,今天cURL就存在了!
 -   `TheArtOfHttpScripting`使用HTL编写HTTP脚本教程
 -   `TODO`我们或你能做的事情
 -   `VERSIONS`LIPCURL作品的版本编号

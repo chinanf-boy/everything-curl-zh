@@ -20,20 +20,20 @@
 
 ## B
 
--   \-乙:[饼干引擎](http-cookies.md#cookie-engine),[从文件中读取Cookie](http-cookies.md#reading-cookies-from-file),[将Cookie写入文件](http-cookies.md#writing-cookies-to-file),[新cookie会话](http-cookies.md#new-cookie-session),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \-乙:[饼干引擎](http-cookies.md#cookie-engine),[从文件中读取Cookie](http-cookies.md#reading-cookies-from-file),[将Cookie写入文件](http-cookies.md#writing-cookies-to-file),[新cookie会话](http-cookies.md#new-cookie-session),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   \-基本:[HTTP认证](http-auth.md#http-authentication)
 -   BoringSSL:[选择TLS后端](building-source.md#select-tls-backend),[构建使用TLS库](building-tls.md#build-to-use-a-tls-library),[OpenSSL,BoringSSL,利布雷斯尔](building-tls.md#openssl,-boringssl,-libressl),[用BurnSSL构建cURL](building-boringssl.md#build-curl-with-boringssl),[建造博林SSL](building-boringssl.md#build-boringssl),[设置生成树以通过CURL的配置来检测](building-boringssl.md#set-up-the-build-tree-to-get-detected-by-curl's-configure),[配置cURL](building-boringssl.md#configure-curl)
 
 ## C
 
--   \-C:[将Cookie写入文件](http-cookies.md#writing-cookies-to-file),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \-C:[将Cookie写入文件](http-cookies.md#writing-cookies-to-file),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   C-ARES:[用C-ARES解析解决方案](usingcurl-connections.md#name-resolve-tricks-with-c-ares),[C-阿瑞斯](building-deps.md#c-ares),[名称解析器后端](libcurl-names.md#name-resolver-backends),[名称服务器选项](libcurl-names.md#name-server-options)
 -   C89: [评论](sourcecode-style.md#comments),[建筑安装](building.md#building-and-installing)
 -   CA:[冗长模式](usingcurl-verbose.md#verbose-mode),[MITM代理](usingcurl-proxies.md#mitm-proxies),[可用退出码](usingcurl-returns.md#available-exit-codes),[验证服务器证书](usingcurl-tls.md#verifying-server-certificates),[CA存储](usingcurl-tls.md#ca-store),[Windows上的CA存储](usingcurl-tls.md#ca-store-on-windows),[OCSP装订](usingcurl-tls.md#ocsp-stapling)
 -   铬:[SSLKIG文件](tls-sslkeylogfile.md#sslkeylogfile),[cURL复制](usingcurl-copyas.md#copy-as-curl),[从铬](usingcurl-copyas.md#from-chrome),[从狩猎](usingcurl-copyas.md#from-safari)
 -   克隆:[克隆代码](sourcecode.md#clone-the-code),[吉特](sourcecode-contributing.md#git),[拉动请求](sourcecode-contributing.md#pull-request),[网站源代码](sourcecode-web.md#web-site-source-code),[建造博林SSL](building-boringssl.md#build-boringssl)
 -   行为守则:[行为守则](opensource-coc.md#code-of-conduct)
--   \-压缩:[压缩](usingcurl-downloads.md#compression),[压缩传输](http-response.md#gzipped-transfers),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \-压缩:[压缩](usingcurl-downloads.md#compression),[压缩传输](http-response.md#gzipped-transfers),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   配置:[根](sourcecode-layout.md#root),[包含/cURL](sourcecode-layout.md#include/curl),[处理不同的构建选项](sourcecode-options.md#handling-different-build-options),[Linux与类UNIX系统的研究](building-source.md#on-linux-and-unix-like-systems),[自动工具](building-source.md#autotools),[交叉编译](building-source.md#cross-compiling),[选择TLS后端](building-source.md#select-tls-backend),[配置](building-tls.md#configure),[OpenSSL,BoringSSL,利布雷斯尔](building-tls.md#openssl,-boringssl,-libressl),[侏儒](building-tls.md#gnutls),[NSS](building-tls.md#nss),[沃尔夫斯尔](building-tls.md#wolfssl),[斧头](building-tls.md#axtls),[麦德尔斯](building-tls.md#mbedtls),[安全传输](building-tls.md#secure-transport),[安全通道](building-tls.md#schannel),[设置生成树以通过CURL的配置来检测](building-boringssl.md#set-up-the-build-tree-to-get-detected-by-curl's-configure),[配置cURL](building-boringssl.md#configure-curl)
 -   ——连接超时:[连接超时](usingcurl-connections.md#connection-timeout),[永远不要花费更多的时间来连接](usingcurl-timeouts.md#never-spend-more-than-this-to-connect)
 -   \-连接到:[提供替换名称](usingcurl-connections.md#provide-a-replacement-name)
@@ -46,7 +46,7 @@
 -   饼干引擎:[饼干引擎](http-cookies.md#cookie-engine),[将Cookie写入文件](http-cookies.md#writing-cookies-to-file),[饼干引擎](libcurl-http-cookies.md#cookie-engine),[启用读取cookie引擎](libcurl-http-cookies.md#enable-cookie-engine-with-reading),[启用Cookie引擎](libcurl-http-cookies.md#enable-cookie-engine-with-writing),[设置自定义Cookie](libcurl-http-cookies.md#setting-custom-cookies)
 -   曲奇:[文档](sourcecode-layout.md#docs),[服务器差异](usingcurl-downloads.md#server-differences),[更改主机:标题](usingcurl-connections.md#change-the-host:-header),[不完美](usingcurl-copyas.md#not-perfect),[用cookies维护状态](curlexamples.md#maintain-state-with-cookies),[HTTP认证](http-auth.md#http-authentication),[曲奇饼](http-cookies.md#cookies),[饼干引擎](http-cookies.md#cookie-engine),[从文件中读取Cookie](http-cookies.md#reading-cookies-from-file),[将Cookie写入文件](http-cookies.md#writing-cookies-to-file),[新cookie会话](http-cookies.md#new-cookie-session),[LIPPSL](building-deps.md#libpsl),[默认情况下,更多的按需](libcurl.md#simple-by-default,-more-on-demand),[可用信息](libcurl-getinfo.md#available-information),[易于处理之间的共享](libcurl-sharing.md#sharing-between-easy-handles),[分享什么](libcurl-sharing.md#what-to-share),[HTTP认证](libcurl-http-auth.md#http-authentication),[曲奇饼](libcurl-http-cookies.md#cookies-with-libcurl),[饼干引擎](libcurl-http-cookies.md#cookie-engine),[启用读取cookie引擎](libcurl-http-cookies.md#enable-cookie-engine-with-reading),[启用Cookie引擎](libcurl-http-cookies.md#enable-cookie-engine-with-writing),[设置自定义Cookie](libcurl-http-cookies.md#setting-custom-cookies),[进出口](libcurl-http-cookies.md#import-export),[从cookie商店获取所有cookies](libcurl-http-cookies.md#get-all-cookies-from-the-cookie-store),[cookie存储命令](libcurl-http-cookies.md#cookie-store-commands)
 -   版权:[许可证](opensource-license.md#license),[版权](opensource-copyright.md#copyright)
--   卷发公告:[cURL宣告](curl-maillists.md#curl-announce),[漏洞处理](sourcecode-reportvuln.md#vulnerability-handling)
+-   cURL公告:[cURL宣告](curl-maillists.md#curl-announce),[漏洞处理](sourcecode-reportvuln.md#vulnerability-handling)
 -   cURL库:[cURL用户](curl-maillists.md#curl-users),[cURL库](curl-maillists.md#curl-library),[为邮件列表做补丁](sourcecode-contributing.md#make-a-patch-for-the-mailing-list),[漏洞处理](sourcecode-reportvuln.md#vulnerability-handling)
 -   cURL用户:[cURL用户](curl-maillists.md#curl-users),[漏洞处理](sourcecode-reportvuln.md#vulnerability-handling)
 -   CurelyBabeldyByAube回调:[进度回调](callback-progress.md#progress-callback)
@@ -133,7 +133,7 @@
 
 ## D
 
--   D:[选项的参数](cmdline-options.md#arguments-to-options),[带空格的参数](cmdline-options.md#arguments-with-spaces),[每个URL的独立选项](cmdline-urls.md#separate-options-per-url),[柱](usingcurl-uploads.md#post),[HTTP方法](http.md#http-methods),[HTTP邮局](http-post.md#http-post),[内容类型](http-post.md#content-type),[张贴二进制](http-post.md#posting-binary),[将其转换为](http-post.md#convert-that-to-a-get),[期待100继续](http-post.md#expect-100-continue),[成组编码的帖子](http-post.md#chunked-encoded-posts),[隐藏表单字段](http-post.md#hidden-form-fields),[-d vs -F](http-postvspost.md#d-vs--f),[HTML网页表单](http-postvspost.md#html-web-forms),[HTML以外的帖子](http-postvspost.md#post-outside-of-html),[放](http-put.md#put),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   D:[选项的参数](cmdline-options.md#arguments-to-options),[带空格的参数](cmdline-options.md#arguments-with-spaces),[每个URL的独立选项](cmdline-urls.md#separate-options-per-url),[柱](usingcurl-uploads.md#post),[HTTP方法](http.md#http-methods),[HTTP邮局](http-post.md#http-post),[内容类型](http-post.md#content-type),[张贴二进制](http-post.md#posting-binary),[将其转换为](http-post.md#convert-that-to-a-get),[期待100继续](http-post.md#expect-100-continue),[成组编码的帖子](http-post.md#chunked-encoded-posts),[隐藏表单字段](http-post.md#hidden-form-fields),[-d vs -F](http-postvspost.md#d-vs--f),[HTML网页表单](http-postvspost.md#html-web-forms),[HTML以外的帖子](http-postvspost.md#post-outside-of-html),[放](http-put.md#put),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   \-数据:[选项的参数](cmdline-options.md#arguments-to-options),[每个URL的独立选项](cmdline-urls.md#separate-options-per-url),[柱](usingcurl-uploads.md#post),[HTTP邮局](http-post.md#http-post),[URL编码](http-post.md#url-encoding)
 -   \--数据二进制:[不完美](usingcurl-copyas.md#not-perfect),[张贴二进制](http-post.md#posting-binary),[URL编码](http-post.md#url-encoding)
 -   \--数据URLNECOD:[URL编码](http-post.md#url-encoding)
@@ -149,7 +149,7 @@
 
 ## F
 
--   \- F:[多部分模板](usingcurl-uploads.md#multipart-formpost),[不完美](usingcurl-copyas.md#not-perfect),[HTTP方法](http.md#http-methods),[用卷发方式发送这样的表单](http-multipart.md#sending-such-a-form-with-curl),[内容类型](http-multipart.md#content-type),[-d vs -F](http-postvspost.md#d-vs--f),[HTML网页表单](http-postvspost.md#html-web-forms),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \- F:[多部分模板](usingcurl-uploads.md#multipart-formpost),[不完美](usingcurl-copyas.md#not-perfect),[HTTP方法](http.md#http-methods),[用cURL方式发送这样的表单](http-multipart.md#sending-such-a-form-with-curl),[内容类型](http-multipart.md#content-type),[-d vs -F](http-postvspost.md#d-vs--f),[HTML网页表单](http-postvspost.md#html-web-forms),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   Firefox:[LIB/VTLS](sourcecode-layout.md#lib/vtls),[发现你的代理](usingcurl-proxies.md#discover-your-proxy),[SSLKIG文件](tls-sslkeylogfile.md#sslkeylogfile),[cURL复制](usingcurl-copyas.md#copy-as-curl),[来自Firefox](usingcurl-copyas.md#from-firefox),[从狩猎](usingcurl-copyas.md#from-safari),[在Firefox上,不使用DeVooTo工具](usingcurl-copyas.md#on-firefox,-without-using-the-devtools),[用户代理](http-requests.md#user-agent)
 -   碎片:[破片](cmdline-urls.md#fragment),[锚或碎片](http-requests.md#anchors-or-fragments)
 -   ——FTP方法:[多小波分析](ftp-traversedir.md#multicwd),[nocwd](ftp-traversedir.md#nocwd),[单选](ftp-traversedir.md#singlecwd)
@@ -198,7 +198,7 @@
 
 ## L
 
--   \- L:[短期期权](cmdline-options.md#short-options),[可用--写出变量](usingcurl-verbose.md#available---write-out-variables),[告诉CURL遵循重定向](http-redirects.md#tell-curl-to-follow-redirects),[请求方法](http-requests.md#request-method),[饼干引擎](http-cookies.md#cookie-engine),[从文件中读取Cookie](http-cookies.md#reading-cookies-from-file),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \- L:[短期期权](cmdline-options.md#short-options),[可用--写出变量](usingcurl-verbose.md#available---write-out-variables),[告诉CURL遵循重定向](http-redirects.md#tell-curl-to-follow-redirects),[请求方法](http-requests.md#request-method),[饼干引擎](http-cookies.md#cookie-engine),[从文件中读取Cookie](http-cookies.md#reading-cookies-from-file),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   ——比尔:[cURL](libcurl--libcurl.md#curl---libcurl)
 -   诽谤版本:[可用退出码](usingcurl-returns.md#available-exit-codes),[最新版本?](building.md#the-latest-version?),[哪一种曲解版](libcurl-api.md#which-libcurl-version),[哪一个LILCURL版本运行](libcurl-api.md#which-libcurl-version-runs)
 -   利比登2:[利比登2](building-deps.md#libidn2)
@@ -236,7 +236,7 @@
 
 ## O
 
--   o:[许多选项和URL](cmdline-urls.md#many-options-and-urls),[数值范围](cmdline-globbing.md#numerical-ranges),[字母范围](cmdline-globbing.md#alphabetical-ranges),[一览表](cmdline-globbing.md#a-list),[组合](cmdline-globbing.md#combinations),[全球化的输出变量](cmdline-globbing.md#output-variables-for-globbing),[下载到由URL命名的文件](usingcurl-downloads.md#download-to-a-file-named-by-the-url),[从服务器获取目标文件名](usingcurl-downloads.md#get-the-target-file-name-from-the-server),[外壳重定向](usingcurl-downloads.md#shell-redirects),[多重下载](usingcurl-downloads.md#multiple-downloads),[为所有URL使用URL的文件名部分](usingcurl-downloads.md#use-the-url's-file-name-part-for-all-urls),[恢复和射程](usingcurl-downloads.md#resuming-and-ranges),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   o:[许多选项和URL](cmdline-urls.md#many-options-and-urls),[数值范围](cmdline-globbing.md#numerical-ranges),[字母范围](cmdline-globbing.md#alphabetical-ranges),[一览表](cmdline-globbing.md#a-list),[组合](cmdline-globbing.md#combinations),[全球化的输出变量](cmdline-globbing.md#output-variables-for-globbing),[下载到由URL命名的文件](usingcurl-downloads.md#download-to-a-file-named-by-the-url),[从服务器获取目标文件名](usingcurl-downloads.md#get-the-target-file-name-from-the-server),[外壳重定向](usingcurl-downloads.md#shell-redirects),[多重下载](usingcurl-downloads.md#multiple-downloads),[为所有URL使用URL的文件名部分](usingcurl-downloads.md#use-the-url's-file-name-part-for-all-urls),[恢复和射程](usingcurl-downloads.md#resuming-and-ranges),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   OpenLDAP:[openldap](building-deps.md#openldap)
 -   OpenSSL:[LIB/VTLS](sourcecode-layout.md#lib/vtls),[OCSP装订](usingcurl-tls.md#ocsp-stapling),[选择TLS后端](building-source.md#select-tls-backend),[构建使用TLS库](building-tls.md#build-to-use-a-tls-library),[配置](building-tls.md#configure),[OpenSSL,BoringSSL,利布雷斯尔](building-tls.md#openssl,-boringssl,-libressl),[代理类型](libcurl-proxies.md#proxy-types),[可用信息](libcurl-getinfo.md#available-information)
 
@@ -297,20 +297,20 @@
 
 ## T
 
--   \-T:[放](usingcurl-uploads.md#put),[FTP上传](usingcurl-uploads.md#ftp-uploads),[SMTP上传](usingcurl-uploads.md#smtp-uploads),[用FTP上传](ftp-advanced.md#uploading-with-ftp),[HTTP方法](http.md#http-methods),[放](http-put.md#put),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \-T:[放](usingcurl-uploads.md#put),[FTP上传](usingcurl-uploads.md#ftp-uploads),[SMTP上传](usingcurl-uploads.md#smtp-uploads),[用FTP上传](ftp-advanced.md#uploading-with-ftp),[HTTP方法](http.md#http-methods),[放](http-put.md#put),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   远程登录:[cURL支持什么协议?](protocols-protocols.md#what-protocols-does-curl-support?),[远程登录](protocols-curl.md#telnet),[支持协议](usingcurl.md#supported-protocols),[可用退出码](usingcurl-returns.md#available-exit-codes),[远程登录](usingcurl-telnet.md#telnet)
--   测试:[卷发是做什么的?](curl-does.md#what-does-curl-do?),[报告错误](curl-bugs.md#reporting-bugs),[测试](curl-bugs.md#testing),[处理不同的构建选项](sourcecode-options.md#handling-different-build-options),[贡献](sourcecode-contributing.md#contributing),[关于HTTP响应代码"错误"](libcurl-http-responses.md#about-http-response-code-"errors")
+-   测试:[cURL是做什么的?](curl-does.md#what-does-curl-do?),[报告错误](curl-bugs.md#reporting-bugs),[测试](curl-bugs.md#testing),[处理不同的构建选项](sourcecode-options.md#handling-different-build-options),[贡献](sourcecode-contributing.md#contributing),[关于HTTP响应代码"错误"](libcurl-http-responses.md#about-http-response-code-"errors")
 -   TLS:[LIB/VTLS](sourcecode-layout.md#lib/vtls),[文档](sourcecode-layout.md#docs),[处理不同的构建选项](sourcecode-options.md#handling-different-build-options),[热释光](protocols-network.md#tls),[传输数据](protocols-network.md#transfer-data),[协议改变了多少?](protocols-protocols.md#how-much-do-protocols-change?),[连接重用](cmdline-urls.md#connection-reuse),[冗长模式](usingcurl-verbose.md#verbose-mode),[更改主机:标题](usingcurl-connections.md#change-the-host:-header),[MITM代理](usingcurl-proxies.md#mitm-proxies),[可用退出码](usingcurl-returns.md#available-exit-codes),[SCP与SFTP](usingcurl-scpsftp.md#scp-and-sftp),[已知主机](usingcurl-scpsftp.md#known-hosts),[热释光](usingcurl-tls.md#tls),[密码](usingcurl-tls.md#ciphers),[启用TLS](usingcurl-tls.md#enable-tls),[SSL和TLS版本](usingcurl-tls.md#ssl-and-tls-versions),[验证服务器证书](usingcurl-tls.md#verifying-server-certificates),[CA存储](usingcurl-tls.md#ca-store),[Windows上的CA存储](usingcurl-tls.md#ca-store-on-windows),[证书钉扎](usingcurl-tls.md#certificate-pinning),[OCSP装订](usingcurl-tls.md#ocsp-stapling),[客户证书](usingcurl-tls.md#client-certificates),[TLS-AUTH](usingcurl-tls.md#tls-auth),[不同的TLS后端](usingcurl-tls.md#different-tls-backends),[多个TLS后端](usingcurl-tls.md#multiple-tls-backends),[SSLKIG文件](tls-sslkeylogfile.md#sslkeylogfile),[LBCURL也使用应用程序!](tls-sslkeylogfile.md#libcurl-using-applications-too!),[如何用cURL进行HTTP](http.md#how-to-http-with-curl),[转换为请求的URL](http-basics.md#the-url-converted-to-a-request),[HTTPS](http-https.md#https),[了解浏览器发送的内容](http-post.md#figure-out-what-a-browser-sends),[恰当的](building-binary.md#apt),[百胜](building-binary.md#yum),[选择TLS后端](building-source.md#select-tls-backend),[TLS文库](building-deps.md#tls-libraries),[构建使用TLS库](building-tls.md#build-to-use-a-tls-library),[代理类型](libcurl-proxies.md#proxy-types),[HTTP代理](libcurl-proxies.md#http-proxy),[HTTPS代理](libcurl-proxies.md#https-proxy),[可用信息](libcurl-getinfo.md#available-information),[追踪一切](libcurl-verbose.md#trace-everything)
 -   TODO:[建议](sourcecode-contributing.md#suggestions)
 -   \-TR编码:[压缩](usingcurl-downloads.md#compression),[传递编码](http-response.md#transfer-encoding)
 -   \-痕量:[迹和迹](usingcurl-verbose.md#trace-and---trace-ascii),[--追踪时间](usingcurl-verbose.md#trace-time)
--   \-跟踪ASCII:[迹和迹](usingcurl-verbose.md#trace-and---trace-ascii),[--追踪时间](usingcurl-verbose.md#trace-time),[服务器差异](usingcurl-downloads.md#server-differences),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \-跟踪ASCII:[迹和迹](usingcurl-verbose.md#trace-and---trace-ascii),[--追踪时间](usingcurl-verbose.md#trace-time),[服务器差异](usingcurl-downloads.md#server-differences),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   \--追踪时间:[--追踪时间](usingcurl-verbose.md#trace-time)
 -   传输编码:[传递编码传递](http-response.md#pass-on-transfer-encoding),[成组编码的帖子](http-post.md#chunked-encoded-posts)
 
 ## U
 
--   \- U:[密码与窥探](cmdline-passwords.md#passwords-and-snooping),[命令行泄漏](cmdline-passwords.md#command-line-leakage),[认证](usingcurl-ftp.md#authentication),[网址](usingcurl-scpsftp.md#urls),[HTTP认证](http-auth.md#http-authentication),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \- U:[密码与窥探](cmdline-passwords.md#passwords-and-snooping),[命令行泄漏](cmdline-passwords.md#command-line-leakage),[认证](usingcurl-ftp.md#authentication),[网址](usingcurl-scpsftp.md#urls),[HTTP认证](http-auth.md#http-authentication),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   \- U:[代理认证](usingcurl-proxies.md#proxy-authentication)
 -   URL全球化:[URL全球化](cmdline-globbing.md#url-globbing)
 
@@ -327,8 +327,8 @@
 
 ## X
 
--   \- X:[超文本传输协议](usingcurl-proxies.md#http),[HTTPS与代理](usingcurl-proxies.md#https-and-proxy),[HTTP代理上的非HTTP协议](usingcurl-proxies.md#non-http-protocols-over-an-http-proxy),[HTTP代理隧道](usingcurl-proxies.md#http-proxy-tunneling),[袜子类型](usingcurl-proxies.md#socks-types),[代理认证](usingcurl-proxies.md#proxy-authentication),[代理环境变量](usingcurl-proxies.md#proxy-environment-variables),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet),[代理环境变量](libcurl-proxies.md#proxy-environment-variables)
--   \- X:[请求方法](http-requests.md#request-method),[请求目标](http-requests.md#request-target),[放](http-put.md#put),[卷发HTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
+-   \- X:[超文本传输协议](usingcurl-proxies.md#http),[HTTPS与代理](usingcurl-proxies.md#https-and-proxy),[HTTP代理上的非HTTP协议](usingcurl-proxies.md#non-http-protocols-over-an-http-proxy),[HTTP代理隧道](usingcurl-proxies.md#http-proxy-tunneling),[袜子类型](usingcurl-proxies.md#socks-types),[代理认证](usingcurl-proxies.md#proxy-authentication),[代理环境变量](usingcurl-proxies.md#proxy-environment-variables),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet),[代理环境变量](libcurl-proxies.md#proxy-environment-variables)
+-   \- X:[请求方法](http-requests.md#request-method),[请求目标](http-requests.md#request-target),[放](http-put.md#put),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 
 ## Y
 

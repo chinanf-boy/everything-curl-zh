@@ -79,7 +79,7 @@ curl -A "I am your father" http://example.com
 curl -A I am your father http://example.com
 ```
 
-...将使curl只使用'I'作为用户代理字符串,而下面的字符串'am'、....等将作为单独的URL处理,因为它们不是以`-`指示它们是选项,而卷发只处理选项和URL.
+...将使curl只使用'I'作为用户代理字符串,而下面的字符串'am'、....等将作为单独的URL处理,因为它们不是以`-`指示它们是选项,而cURL只处理选项和URL.
 
 为了让字符串本身包含双引号(例如,当您想要将一个JSON字符串发送到服务器时,这很常见),您可能需要使用单引号(除了在Windows上,单引号工作方式不同).发送JSON字符串`{ "name": "Darth" }`:
 

@@ -11,7 +11,7 @@ curl ftp://ftp.example.com/directory/
 
 对于FTP,对于使用标准FTP命令的这类命令返回的目录输出没有标准语法`LIST`. 列表通常是可读的,并且完全可以理解,但是您将看到不同的服务器将以稍微不同的方式返回列表.
 
-获得目录中所有名称的列表,从而避免常规目录列表的特殊格式的一种方法是告诉curl`--list-only`(或者只是`-l`)卷发然后发出`NLST`相反,FTP命令:
+获得目录中所有名称的列表,从而避免常规目录列表的特殊格式的一种方法是告诉curl`--list-only`(或者只是`-l`)cURL然后发出`NLST`相反,FTP命令:
 
 ```
 curl --list-only ftp://ftp.example.com/directory/

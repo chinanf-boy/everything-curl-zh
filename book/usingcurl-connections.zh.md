@@ -31,7 +31,7 @@ curl -H "Host: www.example.com" http://localhost/
 
 ### 为名称提供自定义IP地址
 
-你知道比卷发器应该去哪里更好吗?然后你可以给自己的IP地址cURL!如果要重定向端口80,请访问`example.com`相反,到达你的本地主机:
+你知道比cURL器应该去哪里更好吗?然后你可以给自己的IP地址cURL!如果要重定向端口80,请访问`example.com`相反,到达你的本地主机:
 
 ```
 curl --resolve example.com:80:127.0.0.1 http://example.com/
@@ -55,7 +55,7 @@ curl --resolve example.com:80:127.0.0.1 http://example.com/
 curl --connect-to www.example.com:80:load1.example.com:80 http://www.example.com
 ```
 
-它从源名称+源端口重定向到目的地名称+目的地端口.卷发将解决`load1.example.com`名称和连接,但在所有其他方式仍然假设它正在交谈`www.example.com`.
+它从源名称+源端口重定向到目的地名称+目的地端口.cURL将解决`load1.example.com`名称和连接,但在所有其他方式仍然假设它正在交谈`www.example.com`.
 
 ### 用C-ARES解析解决方案
 
@@ -71,7 +71,7 @@ curl --connect-to www.example.com:80:load1.example.com:80 http://www.example.com
 
 CURL通常将TCP连接作为其网络传输的初始部分与主机连接.如果存在不稳定的网络条件或有故障的远程服务器,TCP连接可能会失败或非常缓慢.
 
-为了减少对脚本或其他使用的影响,可以设置允许连接尝试的curl的最大时间(以秒为单位).用`--connect-timeout`你告诉CURL允许连接的最大时间,如果在那个时候卷发没有连接,它会返回一个故障.
+为了减少对脚本或其他使用的影响,可以设置允许连接尝试的curl的最大时间(以秒为单位).用`--connect-timeout`你告诉CURL允许连接的最大时间,如果在那个时候cURL没有连接,它会返回一个故障.
 
 连接超时仅限制了curl在连接时所花的时间,因此一旦建立了TCP连接,它可能需要更长的时间.见[超时](usingcurl-timeouts.md)更多关于通用cURL超时的章节.
 

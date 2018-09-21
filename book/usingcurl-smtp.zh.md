@@ -71,7 +71,7 @@ curl smtp://mail.example.com
 
 你当然可以一如既往地使用`-v`选项以查看客户端-服务器通信.
 
-取而代之的是卷发`client.example.com`在`HELO` / `EHLO`命令到邮件服务器`mail.example.com`,用途:
+取而代之的是cURL`client.example.com`在`HELO` / `EHLO`命令到邮件服务器`mail.example.com`,用途:
 
 ```
 curl smtp://mail.example.com/client.example.com

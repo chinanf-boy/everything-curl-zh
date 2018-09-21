@@ -1,5 +1,5 @@
 
-# 卷发HTTP作弊单
+# cURLHTTP作弊单
 
 [在线这里](https://curl.github.io/curl-cheat-sheet/http-sheet.html)
 

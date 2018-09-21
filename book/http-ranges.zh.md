@@ -7,7 +7,7 @@
 
 <!-- the above is duplicated at libcurl-http-ranges.md -->
 
-你可以让卷发要求一个范围.`-r`或`--range`. 如果你想从某物中取出前200个字节:
+你可以让cURL要求一个范围.`-r`或`--range`. 如果你想从某物中取出前200个字节:
 
 ```
 curl -r 0-199 http://example.com
