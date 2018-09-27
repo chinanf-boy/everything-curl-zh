@@ -1,7 +1,7 @@
 
 # OpenSKET和CeleSoCKET回调
 
-有时,您会希望应用程序更精确地控制套接字libcurl将用于其操作的内容.LIbCURL提供了一对回调,它取代了LiCURL自己的调用.`socket()`随后`close()`相同的文件描述符.
+有时,您会希望应用程序更精确地控制套接字libcurl将用于其操作的内容.LIbCURL提供了一对回调,它取代了libcurl自己的调用.`socket()`随后`close()`相同的文件描述符.
 
 ## 提供文件描述符
 
@@ -27,7 +27,7 @@ curl_socket_t opensocket_callback(void *clientp,
 
 如果希望提供某种网络过滤器或转换层,则还显式地允许套接字打开回调修改该结构中的目标地址.
 
-回调应该返回文件描述符或`CURL_SOCKET_BAD`这将在LiCURL中造成不可恢复的错误,并且最终返回.`CURLE_COULDNT_CONNECT`从它的执行功能来看.
+回调应该返回文件描述符或`CURL_SOCKET_BAD`这将在libcurl中造成不可恢复的错误,并且最终返回.`CURLE_COULDNT_CONNECT`从它的执行功能来看.
 
 如果要返回文件描述符,则为*已经连接*对于服务器,则还必须设置[Sokopt回调](callback-sockopt.md)并确保返回正确的返回值.
 

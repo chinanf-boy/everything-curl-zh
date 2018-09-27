@@ -19,7 +19,7 @@ curl_easy_setopt(easy, CURLOPT_HTTPGET, 1L);
 
 HTTP传输还包括一组响应标头.响应头是与实际有效载荷相关联的元数据,称为响应体.所有的下载都会得到一组标题,但是当使用libcurl时,您可以选择是否要下载(查看).
 
-你可以让LiCURL把标题和规则体一样传递给同一个"流",通过使用`CURLOPT_HEADER`:
+你可以让libcurl把标题和规则体一样传递给同一个"流",通过使用`CURLOPT_HEADER`:
 
 ```
 easy = curl_easy_init();

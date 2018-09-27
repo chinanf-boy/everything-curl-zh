@@ -7,7 +7,7 @@
 
 <!--The above is a duplicate of http-ranges.md-->
 
-你可以让LiCURL请求一个范围`CURLOPT_RANGE`. 比如,如果你想从某物中取出前200个字节:
+你可以让libcurl请求一个范围`CURLOPT_RANGE`. 比如,如果你想从某物中取出前200个字节:
 
 ```
 curl_easy_setopt(curl, CURLOPT_RANGE, "0-199");

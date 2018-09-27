@@ -17,7 +17,7 @@ curl_multi_cleanup( multi_handle );
 
 当简单的操作完成它的目的时,你可以关闭它.但是,如果您打算进行另一次转移,建议您宁可重用句柄,而不要关闭句柄并创建新的句柄.
 
-如果你不打算用简单的句柄进行另一次传输,你只需要LICURL来清理:
+如果你不打算用简单的句柄进行另一次传输,你只需要libcurl来清理:
 
 ```
 curl_easy_cleanup( easy_handle );

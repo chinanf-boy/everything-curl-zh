@@ -9,7 +9,7 @@ HTTP请求包含方法、路径、HTTP版本和一组请求标头.当然,使用�
 
 每一个HTTP请求都包含一个"方法",有时称为"动词".它通常类似于GET、Head、PoST或PoT,但也有一些类似删除、补丁和选项等深奥的内容.
 
-通常,当使用LIbCURL设置和执行传输时,特定的请求方法是由您使用的选项所暗示的.如果你只需要一个URL,就意味着该方法将是`GET`如果你设置为例`CURLOPT_POSTFIELDS`这将使LiCURL使用`POST`方法.如果你设置`CURLOPT_UPLOAD`如果是真的,LiCURL将发送一个`PUT`方法在其HTTP请求等方面.请求`CURLOPT_NOBODY`将使用cURL`HEAD`.
+通常,当使用LIbCURL设置和执行传输时,特定的请求方法是由您使用的选项所暗示的.如果你只需要一个URL,就意味着该方法将是`GET`如果你设置为例`CURLOPT_POSTFIELDS`这将使libcurl使用`POST`方法.如果你设置`CURLOPT_UPLOAD`如果是真的,libcurl将发送一个`PUT`方法在其HTTP请求等方面.请求`CURLOPT_NOBODY`将使用cURL`HEAD`.
 
 但是,有时这些默认HTTP方法不够好,或者根本不是您希望传输使用的方法.然后,您可以指示LIbCURL使用您喜欢的特定方法.`CURLOPT_CUSTOMREQUEST`. 例如,您想发送一个`DELETE`方法到您选择的URL:
 
