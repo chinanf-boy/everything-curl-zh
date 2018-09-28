@@ -42,6 +42,6 @@ curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &code);
 
 虽然响应代码编号可以包括服务器用来发出处理请求有错误的信号的编号(在4xx和5xx范围内),但是重要的是要认识到这不会导致libcurl返回错误.
 
-当LIPURL被要求执行HTTP传输时,如果HTTP传输失败,它将返回一个错误.然而,获得HTTP 404或类似的返回对于LIbCURL不是问题.它不是HTTP传输错误.用户很可能正在编写一个客户端来测试服务器的HTTP响应.
+当LIPURL被要求执行HTTP传输时,如果HTTP传输失败,它将返回一个错误.然而,获得HTTP 404或类似的返回对于libcurl不是问题.它不是HTTP传输错误.用户很可能正在编写一个客户端来测试服务器的HTTP响应.
 
 如果您坚持将HTTP响应代码从400和上处理为cURL,LBCURL提供`CURLOPT_FAILONERROR`选项,如果集合指示cURL返回`CURLE_HTTP_RETURNED_ERROR`在这种情况下.然后,它将尽快返回错误,而不传递响应体.

@@ -49,7 +49,7 @@ apt install libcurl4-gnutls-dev
 yum install curl
 ```
 
-您可以安装LIbCURL开发包(包括包含文件和一些文档等):
+您可以安装libcurl开发包(包括包含文件和一些文档等):
 
 ```
 yum install curl-devel

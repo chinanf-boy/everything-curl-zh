@@ -1,11 +1,11 @@
 
 # OpenSKET和CeleSoCKET回调
 
-有时,您会希望应用程序更精确地控制套接字libcurl将用于其操作的内容.LIbCURL提供了一对回调,它取代了libcurl自己的调用.`socket()`随后`close()`相同的文件描述符.
+有时,您会希望应用程序更精确地控制套接字libcurl将用于其操作的内容.libcurl提供了一对回调,它取代了libcurl自己的调用.`socket()`随后`close()`相同的文件描述符.
 
 ## 提供文件描述符
 
-通过设置`CURLOPT_OPENSOCKETFUNCTION`回调,您可以提供一个自定义函数返回一个文件描述符用于LIbCURL以使用:
+通过设置`CURLOPT_OPENSOCKETFUNCTION`回调,您可以提供一个自定义函数返回一个文件描述符用于libcurl以使用:
 
 ```
 curl_easy_setopt(handle, CURLOPT_OPENSOCKETFUNCTION, opensocket_callback);

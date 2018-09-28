@@ -3,11 +3,11 @@
 
 可以通过许多不同的方式完成HTTP上传,注意这些差异是很重要的.他们可以使用不同的方法,如POST或PUT,当使用POST时,身体格式化会有所不同.
 
-除了这些HTTP差异之外,LIbCURL还提供了提供上传数据的不同方式.
+除了这些HTTP差异之外,libcurl还提供了提供上传数据的不同方式.
 
 ### HTTP邮局
 
-POST通常是将数据传递给远程Web应用程序的HTTP方法.在浏览器中这样做的一种非常常见的方式是填写HTML表单并按下提交.它是HTTP请求向服务器传递数据的标准方式.使用LIbCURL,通常可以将这些数据作为指针和长度提供:
+POST通常是将数据传递给远程Web应用程序的HTTP方法.在浏览器中这样做的一种非常常见的方式是填写HTML表单并按下提交.它是HTTP请求向服务器传递数据的标准方式.使用libcurl,通常可以将这些数据作为指针和长度提供:
 
 ```
 curl_easy_setopt(easy, CURLOPT_POSTFIELDS, dataptr);
@@ -30,7 +30,7 @@ application/x-www-form-urlencoded`.
 
 每个这样的部分都有一个名称、一组标头和一些其他属性.
 
-LIbCURL为构建这样一系列部件提供了方便的功能,并将其发送到服务器.`curl_formadd`是构建窗体的函数.为每个部分调用一次,并将参数传递给它,详细说明该部分的细节和特性.当您要发送的所有部件都已被添加时,您将在手柄中传递.`curl_formadd`像这样返回:
+libcurl为构建这样一系列部件提供了方便的功能,并将其发送到服务器.`curl_formadd`是构建窗体的函数.为每个部分调用一次,并将参数传递给它,详细说明该部分的细节和特性.当您要发送的所有部件都已被添加时,您将在手柄中传递.`curl_formadd`像这样返回:
 
 ```
 curl_easy_setopt(easy, CURLOPT_HTTPPOST, formposthandle);

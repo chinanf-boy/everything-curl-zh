@@ -5,7 +5,7 @@
 
 由于curl\_.\_setopt()调用接受数百个不同的选项,并且各种选项接受各种不同类型的参数,因此了解细节并精确地提供特定选项支持和期望的参数类型非常重要.误入歧途会导致意想不到的副作用或难以理解的打嗝.
 
-每个传输需要的最重要的选项是URL.LILCURL不能执行传输,而不知道它关注哪个URL,所以必须告诉它.URL选项名称为`CURLOPT_URL`因为所有选项都是前缀`CURLOPT_`然后描述性名称都使用大写字母.一个示例行设置URL以获得"[HTTP://Excel](http://example.com)"HTTP内容看起来像:
+每个传输需要的最重要的选项是URL.libcurl不能执行传输,而不知道它关注哪个URL,所以必须告诉它.URL选项名称为`CURLOPT_URL`因为所有选项都是前缀`CURLOPT_`然后描述性名称都使用大写字母.一个示例行设置URL以获得"[HTTP://Excel](http://example.com)"HTTP内容看起来像:
 
 ```
 CURLcode ret = curl_easy_setopt(easy, CURLOPT_URL, "http://example.com");

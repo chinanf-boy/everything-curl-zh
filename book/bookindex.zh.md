@@ -129,7 +129,7 @@
 -   CurLyMulthyAuth:[多接口驱动](libcurl-drive-multi.md#driving-with-the-multi-interface)
 -   CurLyfOfft:[进度回调](callback-progress.md#progress-callback),[设置数值选项](libcurl-options.md#setting-numerical-options)
 -   Curl SokIKTIMEOUT:[定时器回调](libcurl-drive-multi-socket.md#timer_callback),[如何开始一切](libcurl-drive-multi-socket.md#how-to-start-everything)
--   CURLL版本信息:[哪一个LILCURL版本运行](libcurl-api.md#which-libcurl-version-runs)
+-   CURLL版本信息:[哪一个libcurl版本运行](libcurl-api.md#which-libcurl-version-runs)
 
 ## D
 
@@ -139,7 +139,7 @@
 -   \--数据URLNECOD:[URL编码](http-post.md#url-encoding)
 -   迪比:[LIB/VTLS](sourcecode-layout.md#lib/vtls),[恰当的](building-binary.md#apt)
 -   调试回调:[调试回调](callback-debug.md#debug-callback),[冗长操作](libcurl-verbose.md#verbose-operations)
--   发展:[项目沟通](curl-comm.md#project-communication),[cURL用户](curl-maillists.md#curl-users),[cURL库](curl-maillists.md#curl-library),[报告错误](curl-bugs.md#reporting-bugs),[必须解决的问题是固定的.](curl-bugs.md#problems-must-be-known-to-get-fixed),[开发团队](curl-devteam.md#the-development-team),[未来](curl-future.md#future),[发展](opensource-devel.md#development),[GITHUB的源代码](opensource-devel.md#source-code-on-github),[谁决定干什么?](sourcecode-contributing.md#who-decides-what-goes-in?),[SSL和TLS版本](usingcurl-tls.md#ssl-and-tls-versions),[从狩猎](usingcurl-copyas.md#from-safari),[了解浏览器发送的内容](http-post.md#figure-out-what-a-browser-sends),[恰当的](building-binary.md#apt),[百胜](building-binary.md#yum),[哪一个LILCURL版本运行](libcurl-api.md#which-libcurl-version-runs)
+-   发展:[项目沟通](curl-comm.md#project-communication),[cURL用户](curl-maillists.md#curl-users),[cURL库](curl-maillists.md#curl-library),[报告错误](curl-bugs.md#reporting-bugs),[必须解决的问题是固定的.](curl-bugs.md#problems-must-be-known-to-get-fixed),[开发团队](curl-devteam.md#the-development-team),[未来](curl-future.md#future),[发展](opensource-devel.md#development),[GITHUB的源代码](opensource-devel.md#source-code-on-github),[谁决定干什么?](sourcecode-contributing.md#who-decides-what-goes-in?),[SSL和TLS版本](usingcurl-tls.md#ssl-and-tls-versions),[从狩猎](usingcurl-copyas.md#from-safari),[了解浏览器发送的内容](http-post.md#figure-out-what-a-browser-sends),[恰当的](building-binary.md#apt),[百胜](building-binary.md#yum),[哪一个libcurl版本运行](libcurl-api.md#which-libcurl-version-runs)
 
 ## E
 
@@ -200,7 +200,7 @@
 
 -   \- L:[短期期权](cmdline-options.md#short-options),[可用--写出变量](usingcurl-verbose.md#available---write-out-variables),[告诉CURL遵循重定向](http-redirects.md#tell-curl-to-follow-redirects),[请求方法](http-requests.md#request-method),[饼干引擎](http-cookies.md#cookie-engine),[从文件中读取Cookie](http-cookies.md#reading-cookies-from-file),[cURLHTTP作弊单](http-cheatsheet.md#curl-http-cheat-sheet)
 -   ——比尔:[cURL](libcurl--libcurl.md#curl---libcurl)
--   诽谤版本:[可用退出码](usingcurl-returns.md#available-exit-codes),[最新版本?](building.md#the-latest-version?),[哪一种曲解版](libcurl-api.md#which-libcurl-version),[哪一个LILCURL版本运行](libcurl-api.md#which-libcurl-version-runs)
+-   诽谤版本:[可用退出码](usingcurl-returns.md#available-exit-codes),[最新版本?](building.md#the-latest-version?),[哪一种曲解版](libcurl-api.md#which-libcurl-version),[哪一个libcurl版本运行](libcurl-api.md#which-libcurl-version-runs)
 -   利比登2:[利比登2](building-deps.md#libidn2)
 -   LIPMETALLink:[锂离子电池](building-deps.md#libmetalink)
 -   LIPPSL:[LIPPSL](building-deps.md#libpsl)

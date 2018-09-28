@@ -13,7 +13,7 @@ curl_easy_setopt(handle, CURLOPT_HEADERFUNCTION, header_callback);
 size_t header_callback(char *ptr, size_t size, size_t nmemb, void *userdata);
 ```
 
-一旦接收到一个报头,这个回调函数就被LIbCURL调用.*ptr*指向所传递的数据,并且该数据的大小为*大小*乘以*nmemb*. LILCURL缓冲区标题,并仅将"完整"标题逐一传递给该回调.
+一旦接收到一个报头,这个回调函数就被libcurl调用.*ptr*指向所传递的数据,并且该数据的大小为*大小*乘以*nmemb*. libcurl缓冲区标题,并仅将"完整"标题逐一传递给该回调.
 
 传递给这个函数的数据不会被零终止!例如,不能使用Prtff的"%s"运算符来显示内容,也不能使用SrcPy复制它.
 

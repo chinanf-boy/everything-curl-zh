@@ -26,5 +26,5 @@ curl_easy_setopt(handle, CURLOPT_SOCKOPTDATA, custom_pointer);
 此回调应该返回:
 
 -   成功之路
--   CurLySokoptTyError将不可恢复的错误信号发送到LILCURL
+-   CurLySokoptTyError将不可恢复的错误信号发送到libcurl
 -   CURLIOSockoptLaReRelyyx连接到信号成功,但实际上套接字实际上已经连接到目的地.

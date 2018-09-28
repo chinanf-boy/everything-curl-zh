@@ -5,7 +5,7 @@
 
 拼命尝试[重新使用现有连接](libcurl-connectionreuse.md)而不是创造和连接一个新的.检查要使用的现有连接的函数完全基于名称,并在尝试任何名称解析之前执行.这也是重用的原因之一.使用重用连接的传输将无法再次解析主机名.
 
-如果不能重用连接,LIbCURL将主机名称解析为解析到的地址集.通常这意味着同时请求IPv4和IPv6地址,并且可能有一组返回到LIPURL.然后,尝试一组地址,直到一个工作,或者它返回失败.
+如果不能重用连接,libcurl将主机名称解析为解析到的地址集.通常这意味着同时请求IPv4和IPv6地址,并且可能有一组返回到LIPURL.然后,尝试一组地址,直到一个工作,或者它返回失败.
 
 应用程序可以通过设置强制LIPURL只使用IPv4或IPv6解析地址.`CURLOPT_IPRESOLVE`达到优选值.例如,要求只使用IPv6地址:
 
@@ -35,7 +35,7 @@ DNS缓存保存在容易处理的时间内.`curl_easy_perform`当使用多接口
 
 借助于[克罗普特溶液](https://curl.haxx.se/libcurl/c/CURLOPT_RESOLVE.html)选项,应用程序可以预先为给定的主机名和端口号填充自定义地址的LBCURL DNS缓存.
 
-为了使LIbCURL连接到127.0.0.1,当请求端口443上的ExpLo.com时,应用程序可以:
+为了使libcurl连接到127.0.0.1,当请求端口443上的ExpLo.com时,应用程序可以:
 
 ```
 struct curl_slist *dns;
@@ -47,7 +47,7 @@ curl_easy_setopt(curl, CURLOPT_RESOLVE, dns);
 
 ## 名称服务器选项
 
-对于使用C-ARES构建的LIbCURL,有一些选项可以提供细粒度的DNS服务器使用和如何控制.这仅限于C-ARES的构建,因为在使用标准系统调用名称解析的时候,这些是不可用的.
+对于使用C-ARES构建的libcurl,有一些选项可以提供细粒度的DNS服务器使用和如何控制.这仅限于C-ARES的构建,因为在使用标准系统调用名称解析的时候,这些是不可用的.
 
 -   用`CURLOPT_DNS_SERVERS`应用程序可以选择使用一组专用DNS服务器.
 

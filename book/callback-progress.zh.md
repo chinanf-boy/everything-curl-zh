@@ -31,7 +31,7 @@ curl_easy_setopt(handle, CURLOPT_XFERINFODATA, custom_pointer);
 
 传递给回调的未知/未使用的参数值将被设置为0(比如,如果仅下载数据,则上传大小将保持0).很多时候,在知道数据大小之前,回调将首先被调用一次或多次,因此必须编写一个程序来处理这个问题.
 
-从这个回调中返回一个非零值会导致LIbCURL中止传输和返回.`CURLE_ABORTED_BY_CALLBACK`.
+从这个回调中返回一个非零值会导致libcurl中止传输和返回.`CURLE_ABORTED_BY_CALLBACK`.
 
 如果使用多接口传输数据,则除非调用执行传输的适当libcurl函数,否则在闲置期间不会调用此函数.
 

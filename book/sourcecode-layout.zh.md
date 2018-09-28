@@ -32,7 +32,7 @@ LBCURL中的VTLS子段是所有TLS后端的家,可以构建LBCURL来支持."虚�
 我们还维持一个[SSL比较表](https://curl.haxx.se/docs/ssl-compared.html)在网站上帮助用户.
 
 -   OpenSSL:(目前为止)最流行的TLS库.
--   BoringSSL:由谷歌维护的OpenSSL叉子.它将使LIbCURL由于缺少库中的某些功能而禁用一些特征.
+-   BoringSSL:由谷歌维护的OpenSSL叉子.它将使libcurl由于缺少库中的某些功能而禁用一些特征.
 -   LibreSSL:OpenSSD团队维护的OpenSSL叉子.
 -   NSS:一个完整的TLS库,它最可能被Firefox Web浏览器所使用.这是默认的TLS后端,用于FEDORA和ReHAT系统的cURL.
 -   GnuTLS:一个完整的TLS库,默认情况下使用Debian封装cURL.
@@ -63,7 +63,7 @@ LBCURL中的VTLS子段是所有TLS后端的家,可以构建LBCURL来支持."虚�
 
 大多数这些文件也显示在cURL网站上,从文本自动转换为Web友好格式/外观.
 
--   `BINDINGS`列出所有已知的LIbCURL语言绑定,以及在哪里找到它们
+-   `BINDINGS`列出所有已知的libcurl语言绑定,以及在哪里找到它们
 -   `BUGS`如何报告错误和在哪里
 -   `CODE_OF_CONDUCT.md`我们希望人们在这个项目中表现如何
 -   `CONTRIBUTE`当对项目做出贡献时该考虑些什么
@@ -100,7 +100,7 @@ LBCURL中的VTLS子段是所有TLS后端的家,可以构建LBCURL来支持."虚�
 
 ### 文件/文件表
 
-所有的LILCURL函数都有自己的人页,每个文件中有3个扩展名,使用NROFF格式,在这个目录中.这也是下面描述的一些其他文件.
+所有的libcurl函数都有自己的人页,每个文件中有3个扩展名,使用NROFF格式,在这个目录中.这也是下面描述的一些其他文件.
 
 -   `ABI`
 -   `index.html`
@@ -116,7 +116,7 @@ LBCURL中的VTLS子段是所有TLS后端的家,可以构建LBCURL来支持."虚�
 
 ### DOC/LBCURL/OPTS
 
-该目录包含用于三个不同的LILCURL函数的单个选项的MAN页面.
+该目录包含用于三个不同的libcurl函数的单个选项的MAN页面.
 
 `curl_easy_setopt()`选项开始`CURLOPT_`,`curl_multi_setopt()`选项开始`CURLMOPT_`和`curl_easy_getinfo()`选项开始`CURLINFO_`.
 

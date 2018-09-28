@@ -23,7 +23,7 @@ multi_socket支持多个并行传输(全部在同一个线程中完成),并且�
 
 如上所述,这种基于事件的机制依赖于应用程序知道libcurl使用哪些套接字以及libcurl在这些套接字上等待什么:如果它等待套接字变成可读、可写或两者兼而有之!
 
-它还需要告诉libcurl超时时间已经过期,因为它可以控制libcurl本身无法执行的所有操作.因此,LIbCURL也必须告诉应用程序一个更新的超时值.
+它还需要告诉libcurl超时时间已经过期,因为它可以控制libcurl本身无法执行的所有操作.因此,libcurl也必须告诉应用程序一个更新的超时值.
 
 ### 套接字回调
 
@@ -43,7 +43,7 @@ int socket_callback(CURL *easy,      /* easy handle */
 curl_multi_setopt(multi_handle, CURLMOPT_SOCKETFUNCTION, socket_callback);
 ```
 
-使用此,LIbCURL将设置和移除应用程序应该监视的套接字.您的应用程序告诉基础的基于事件的系统等待套接字.如果有多个套接字要等待,那么这个回调将被多次调用,并且当状态改变时,它将再次调用,也许您应该从等待可写套接字切换到等待它变得可读.
+使用此,libcurl将设置和移除应用程序应该监视的套接字.您的应用程序告诉基础的基于事件的系统等待套接字.如果有多个套接字要等待,那么这个回调将被多次调用,并且当状态改变时,它将再次调用,也许您应该从等待可写套接字切换到等待它变得可读.
 
 当应用程序在libcurl的代表上监视的一个套接字根据请求注册它变得可读或可写时,通过调用`curl_multi_socket_action()`并在受影响的套接字中传递相关联的位掩码,指定已注册的套接字活动:
 
@@ -81,7 +81,7 @@ curl_multi_setopt(multi_handle, CURLMOPT_TIMERFUNCTION, timer_callback);
 curl_multi_socket_action(multi, CURL_SOCKET_TIMEOUT, 0, &running);
 ```
 
-在许多情况下,这将使LIbCURL再次调用TimeReCalCube并为下一个期满期设置一个新的超时.
+在许多情况下,这将使libcurl再次调用TimeReCalCube并为下一个期满期设置一个新的超时.
 
 ### 如何开始一切
 

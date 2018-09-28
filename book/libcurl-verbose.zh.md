@@ -13,11 +13,11 @@ CURLcode ret = curl_easy_setopt(handle, CURLOPT_VERBOSE, 1L);
 
 ### 追踪一切
 
-冗长无疑是好的,但有时你需要更多.LIbCURL还提供了一个跟踪回调,除了向您展示冗长模式所需的所有内容外,它还通过*全部的*数据发送和接收,以便您的应用程序获得所有的全部踪迹.
+冗长无疑是好的,但有时你需要更多.libcurl还提供了一个跟踪回调,除了向您展示冗长模式所需的所有内容外,它还通过*全部的*数据发送和接收,以便您的应用程序获得所有的全部踪迹.
 
 传递给跟踪回调的发送和接收数据以其未加密形式提供给回调,当使用基于TLS或SSH的协议工作时,当从网络上捕获数据以进行调试时,回调非常方便.
 
-当你设置`CURLOPT_DEBUGFUNCTION`选项,你仍然需要`CURLOPT_VERBOSE`启用,但跟踪回调集LIbCURL将使用回调而不是内部处理.
+当你设置`CURLOPT_DEBUGFUNCTION`选项,你仍然需要`CURLOPT_VERBOSE`启用,但跟踪回调集libcurl将使用回调而不是内部处理.
 
 跟踪回调应该匹配这样的原型:
 
@@ -30,7 +30,7 @@ int my_trace(CURL *handle, curl_infotype type, char *ptr, size_t size,
 
 指向的数据**ptr** *不会*为零终止,但将完全按照**大小**争论.
 
-回调必须返回0或LIbCURL将认为它是一个错误,并中止传输.
+回调必须返回0或libcurl将认为它是一个错误,并中止传输.
 
 在cURL网站上,我们举了一个例子[调试C](https://curl.haxx.se/libcurl/c/debug.html)这包括一个简单的跟踪函数来获取灵感.
 

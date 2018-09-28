@@ -28,7 +28,7 @@ res = curl_easy_setopt(easy_handle, CURLOPT_URL, "http://example.com/");
 
 在传输完成之后,您可以确定它是否成功,并且可以从简单的句柄中提取libcurl在传输期间收集的统计数据和各种信息.见[传递后信息](libcurl-getinfo.md).
 
-当传输正在进行时,LIbCURL调用指定的函数称为*[回调](libcurl-callbacks.md])*-传递数据,读取数据或做各种各样的事情.
+当传输正在进行时,libcurl调用指定的函数称为*[回调](libcurl-callbacks.md])*-传递数据,读取数据或做各种各样的事情.
 
 ### 重新使用!
 

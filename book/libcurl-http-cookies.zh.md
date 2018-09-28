@@ -1,7 +1,7 @@
 
 # 曲奇饼
 
-默认情况下,通过设计,LIbCURL使传输尽可能基本,并且需要启用功能.一个这样的特性是HTTP cookies,更常见的是简单而简单的"cookies".
+默认情况下,通过设计,libcurl使传输尽可能基本,并且需要启用功能.一个这样的特性是HTTP cookies,更常见的是简单而简单的"cookies".
 
 Cookie是由服务器发送的名称/值对(使用`Set-Cookie:`header)存储在客户机中,然后应该在匹配主机和路径要求的请求中再次发送回来,这些请求与cookie从服务器传出时与cookie一起指定的路径要求相匹配(使用`Cookie:`标题).在当今的现代网络中,网站有时会使用大量的cookies.
 
@@ -13,7 +13,7 @@ Cookie是由服务器发送的名称/值对(使用`Set-Cookie:`header)存储在�
 
 ### 启用读取cookie引擎
 
-询问LIbCURL将cookie从给定文件名导入到轻松句柄中`CURLOPT_COOKIEFILE`选项:
+询问libcurl将cookie从给定文件名导入到轻松句柄中`CURLOPT_COOKIEFILE`选项:
 
 ```
 curl_easy_setopt(easy, CURLOPT_COOKIEFILE, "cookies.txt");

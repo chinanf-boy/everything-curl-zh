@@ -1,7 +1,7 @@
 
 ## 报告漏洞
 
-所有已知的和公开的cURL或LILCURL相关漏洞都列在[cURL网站安全页面](https://curl.haxx.se/docs/security.html).
+所有已知的和公开的cURL或libcurl相关漏洞都列在[cURL网站安全页面](https://curl.haxx.se/docs/security.html).
 
 安全漏洞不应该进入项目的公共bug跟踪系统,除非必要的配置是为了限制访问的问题,只有记者和项目的安全团队.
 

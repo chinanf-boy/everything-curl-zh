@@ -1,13 +1,13 @@
 
 # HTTP认证
 
-LIbCURL支持广泛的HTTP认证方案.
+libcurl支持广泛的HTTP认证方案.
 
 注意,这种身份验证方式不同于现今web上非常广泛使用的方案,其中身份验证由HTTP POST执行,然后将状态保存在cookie中.见[曲奇饼](libcurl-http-cookies.md)有关如何做到这一点的细节.
 
 ## 用户名和密码
 
-如果没有给定的用户名,LIbCURL将不尝试任何HTTP身份验证.设置如下:
+如果没有给定的用户名,libcurl将不尝试任何HTTP身份验证.设置如下:
 
 ```
  curl_easy_setopt(curl, CURLOPT_USERNAME, "joe");
@@ -19,7 +19,7 @@ LIbCURL支持广泛的HTTP认证方案.
  curl_easy_setopt(curl, CURLOPT_PASSWORD, "secret");
 ```
 
-这就是你所需要的.这将使LIbCURL在其传输的默认身份验证方法上切换:*基本HTTP协议*.
+这就是你所需要的.这将使libcurl在其传输的默认身份验证方法上切换:*基本HTTP协议*.
 
 ## 要求认证
 
@@ -37,7 +37,7 @@ Authorization: Basic am9lOnNlY3JldA==
 
 这种认证方法在HTTP上完全不安全,因为凭据将通过纯文本在网络上发送.
 
-您可以明确地告诉LIbCURL使用基本方法来进行这样的特定传输:
+您可以明确地告诉libcurl使用基本方法来进行这样的特定传输:
 
 ```
 curl_easy_setopt(curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);

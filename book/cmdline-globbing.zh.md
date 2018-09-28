@@ -5,7 +5,7 @@
 
 globbing为此使用保留的符号\[]和{},这些符号通常不能作为合法URL的一部分(除了数字IPv6地址,但是curl无论如何都能很好地处理它们).如果球体挡住了你的路,就禁用它.`-g, --globoff`.
 
-虽然大多数卷积相关的功能在CURL中是由LIbCURL库提供的,但是URL GuangBin功能不是!
+虽然大多数卷积相关的功能在CURL中是由libcurl库提供的,但是URL GuangBin功能不是!
 
 ### 数值范围
 

@@ -15,7 +15,7 @@ size_t write_callback(char *ptr, size_t size, size_t nmemb, void *userdata);
 
 一旦收到需要保存的数据,这个回调函数就被LBCURL调用.*ptr*指向所传递的数据,并且该数据的大小为*大小*乘以*nmemb*.
 
-如果未设置此回调,则默认情况下,LIbCURL将使用"fWrad".
+如果未设置此回调,则默认情况下,libcurl将使用"fWrad".
 
 在所有调用中,写回调将尽可能多地传递数据,但是它不能做出任何假设.它可能是一个字节,可能是数千个.将传递给写回调的最大体数据量在CURL.H头文件中定义:`CURL_MAX_WRITE_SIZE`(通常默认为16KB).如果`CURLOPT_HEADER`启用此传输,这使得头数据传递到写回调,您可以起床.`CURL_MAX_HTTP_HEADER`头数据传递到它的字节.这通常意味着100KB.
 

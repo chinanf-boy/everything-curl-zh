@@ -33,7 +33,7 @@ CURL源树的描述,以及代码的布局是如何工作的.
 
 ## 8.[构建安装](building.zh.md)
 
-解释如何从源代码构建cURL和LILCURL.
+解释如何从源代码构建cURL和libcurl.
 
 ## 9.[libcurl 基础](libcurl.zh.md)
 

@@ -1,7 +1,7 @@
 
 ## 头文件
 
-应用程序需要包含的LIbCURL只有一个头:
+应用程序需要包含的libcurl只有一个头:
 
 ```
 #include <curl/curl.h>
