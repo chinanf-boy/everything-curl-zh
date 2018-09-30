@@ -17,7 +17,7 @@ size_t header_callback(char *ptr, size_t size, size_t nmemb, void *userdata);
 
 传递给这个函数的数据不会被零终止!例如,不能使用Prtff的"%s"运算符来显示内容,也不能使用SrcPy复制它.
 
-这个回调应该返回实际被处理的字节数.如果该数字与传递给回调函数的数字不同,它会向库发出一个错误条件.这将导致传输中止,并且使用的LBCURL函数将返回.`CURLE_WRITE_ERROR`.
+这个回调应该返回实际被处理的字节数.如果该数字与传递给回调函数的数字不同,它会向库发出一个错误条件.这将导致传输中止,并且使用的libcurl函数将返回.`CURLE_WRITE_ERROR`.
 
 用户指针传入*用户数据*参数设置为`CURLOPT_HEADERDATA`:
 

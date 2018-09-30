@@ -24,7 +24,7 @@ CurLopttCuestRevices设置应该仅是HTTP请求行中作为方法使用的单�
 
 当libcurl发出HTTP请求作为执行您所请求的数据传输的一部分时,它当然会用一组适合于完成交给它的任务的HTTP头将它们发送出去.
 
-如果只给了URL[http://LoalHoal/Fiel1.txt](http://localhost/file1.txt"),LBCURL 7.51.0将向服务器发送以下请求:
+如果只给了URL[http://LoalHoal/Fiel1.txt](http://localhost/file1.txt"),libcurl 7.51.0将向服务器发送以下请求:
 
 ```
 GET /file1.txt HTTP/1.1

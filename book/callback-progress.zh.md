@@ -14,7 +14,7 @@ int xfer_callback(void *clientp, curl_off_t dltotal, curl_off_t dlnow,
                   curl_off_t ultotal, curl_off_t ulnow);
 ```
 
-如果设置了这个选项`CURLOPT_NOPROGRESS`设置为0(零),这个回调函数以频繁的间隔被LBCURL调用.当数据被传输时,它将被非常频繁地调用,并且在慢速期间,比如当什么都没有被传输时,它可以减慢到大约每秒一个调用.
+如果设置了这个选项`CURLOPT_NOPROGRESS`设置为0(零),这个回调函数以频繁的间隔被libcurl调用.当数据被传输时,它将被非常频繁地调用,并且在慢速期间,比如当什么都没有被传输时,它可以减慢到大约每秒一个调用.
 
 这个**客户群**指向私有数据集的指针`CURLOPT_XFERINFODATA`:
 
@@ -22,7 +22,7 @@ int xfer_callback(void *clientp, curl_off_t dltotal, curl_off_t dlnow,
 curl_easy_setopt(handle, CURLOPT_XFERINFODATA, custom_pointer);
 ```
 
-回调告诉多少数据LBCURL将传输和传输,以字节为单位:
+回调告诉多少数据libcurl将传输和传输,以字节为单位:
 
 -   **德尔泰**LITCURL预期在此传输中下载的总字节数.
 -   **DLNE**到目前为止下载的字节数.

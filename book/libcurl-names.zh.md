@@ -19,7 +19,7 @@ libcurl可以用至少三种不同的方式进行名称解析,并且根据使用
 
 1.  默认的后端在新的帮助线程中调用"普通"libc解析器函数,这样如果需要,它仍然可以执行细粒度的超时,并且不会涉及阻塞调用.
 
-2.  在较旧的系统上,LBCURL使用标准的同步名称解析功能.不幸的是,它们在运行过程中会在一个多手柄块内进行所有的传输,因此很难及时地完成.
+2.  在较旧的系统上,libcurl使用标准的同步名称解析功能.不幸的是,它们在运行过程中会在一个多手柄块内进行所有的传输,因此很难及时地完成.
 
 3.  还支持使用c-ares第三方库进行解析,该库支持不使用线程的异步名称解析.这更好地扩展到大量的并行传输,但是并不总是100%兼容本机名称解析器功能.
 
@@ -33,7 +33,7 @@ DNS缓存保存在容易处理的时间内.`curl_easy_perform`当使用多接口
 
 有时,为真实主机名提供"假"地址很方便,这样libcurl将连接到不同的地址,而不是实际的名称解析所建议的地址.
 
-借助于[克罗普特溶液](https://curl.haxx.se/libcurl/c/CURLOPT_RESOLVE.html)选项,应用程序可以预先为给定的主机名和端口号填充自定义地址的LBCURL DNS缓存.
+借助于[克罗普特溶液](https://curl.haxx.se/libcurl/c/CURLOPT_RESOLVE.html)选项,应用程序可以预先为给定的主机名和端口号填充自定义地址的libcurl DNS缓存.
 
 为了使libcurl连接到127.0.0.1,当请求端口443上的ExpLo.com时,应用程序可以:
 
@@ -51,7 +51,7 @@ curl_easy_setopt(curl, CURLOPT_RESOLVE, dns);
 
 -   用`CURLOPT_DNS_SERVERS`应用程序可以选择使用一组专用DNS服务器.
 
--   用`CURLOPT_DNS_INTERFACE`它可以告诉LBCURL哪个网络接口来代替DNS而不是DNS.
+-   用`CURLOPT_DNS_INTERFACE`它可以告诉libcurl哪个网络接口来代替DNS而不是DNS.
 
 -   用`CURLOPT_DNS_LOCAL_IP4`和`CURLOPT_DNS_LOCAL_IP6`应用程序可以指定将DNS解析的特定网络地址解析为.
 

@@ -36,7 +36,7 @@ curl_easy_setopt(curl, CURLOPT_SHARE, share);
 
 `CURL_LOCK_DATA_COOKIE`-设置此位以共享Cookie jar.请注意,每个简单的句柄仍然需要得到它的cookie"引擎"正确启动开始使用cookies.
 
-`CURL_LOCK_DATA_DNS`DNS缓存是LBCURL存储解析主机名称的地址一段时间以使后续查找更快的地方.
+`CURL_LOCK_DATA_DNS`DNS缓存是libcurl存储解析主机名称的地址一段时间以使后续查找更快的地方.
 
 `CURL_LOCK_DATA_SSL_SESSION`-SSL会话ID缓存是libcurl存储用于SSL连接的恢复信息的地方,以便能够更快地恢复先前的连接.
 
