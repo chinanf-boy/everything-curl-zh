@@ -58,7 +58,7 @@
     - [x]  [网络简化](./book/protocols-network.zh.md)
     - [x]  [协议](./book/protocols-protocols.zh.md)
     - [x]  [curl协议](./book/protocols-curl.zh.md)
--   [ ] [命令行基础知识](./book/cmdline.zh.md)
+-   [x] [命令行基础知识](./book/cmdline.zh.md)
     -   [ ] [命令行选项](./book/cmdline-options.zh.md)
     -   [ ] [选项取决于版本](./book/cmdline-versions.zh.md)
     -   [ ] [网址](./book/cmdline-urls.zh.md)
