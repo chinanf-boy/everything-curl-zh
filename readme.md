@@ -72,7 +72,7 @@
     -   [x] [持久连接](./book/usingcurl-persist.zh.md)
     -   [x] [下载](./book/usingcurl-downloads.zh.md)
     -   [x] [上传](./book/usingcurl-uploads.zh.md)
-    -   [ ] [连接](./book/usingcurl-connections.zh.md)
+    -   [x] [连接](./book/usingcurl-connections.zh.md)
     -   [ ] [超时](./book/usingcurl-timeouts.zh.md)
     -   [ ] [.netrc](./book/usingcurl-netrc.zh.md)
     -   [ ] [代理](./book/usingcurl-proxies.zh.md)
