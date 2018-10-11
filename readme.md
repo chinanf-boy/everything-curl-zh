@@ -76,7 +76,7 @@
     -   [x] [超时](./book/usingcurl-timeouts.zh.md)
     -   [x] [.netrc](./book/usingcurl-netrc.zh.md)
     -   [x] [代理](./book/usingcurl-proxies.zh.md)
-    -   [ ] [退出状态](./book/usingcurl-returns.zh.md)
+    -   [x] [退出状态](./book/usingcurl-returns.zh.md)
     -   [ ] [FTP](./book/usingcurl-ftp.zh.md)
         -   [ ] [两个连接](./book/ftp-twoconnections.zh.md)
         -   [ ] [目录遍历](./book/ftp-traversedir.zh.md)
