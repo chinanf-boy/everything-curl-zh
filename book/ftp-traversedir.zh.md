@@ -1,17 +1,17 @@
 
 ## 如何遍历目录
 
-当执行FTP命令遍历远程文件系统时,有几种不同的方式可以继续进行curl以到达目标文件,即用户想要传输的文件.
+当执行FTP命令遍历远程文件系统时,curl有几种不同的方式可以继续进行, 以到达即用户想要传输的目标文件.
 
-### 多小波分析
+### multicwd
 
-CURL可以为文件树层次结构中的每个单独目录更改一个目录(CWD)命令.如果完整路径是`one/two/three/file.txt`那个方法意味着做三`CWD`请求之前的命令`file.txt`文件传输.因此,如果路径是多层次的,那么该方法会产生相当多的命令.这种方法是由早期规范(RFC 1738)规定的,它是如何cURL默认行为:
+curl可以在文件树层次结构中的每个单独目录中，都运行一个更改目录(CWD)命令. 如完整路径是`one/two/three/file.txt`，那方法意味着在请求`file.txt`文件传输之前, 做了三次`CWD`请求的命令. 因此,如果路径是多层次的,那么该方法会产生相当多的命令. 这种方法是由早期规范(RFC 1738)规定的. cURL默认行为:
 
 ```
 curl --ftp-method multicwd ftp://example.com/one/two/three/file.txt
 ```
 
-这等于这个FTP命令/响应序列(简化):
+这等于这个FTP 命令/响应 序列(简化):
 
 ```
 > CWD one
@@ -25,7 +25,7 @@ curl --ftp-method multicwd ftp://example.com/one/two/three/file.txt
 
 ### nocwd
 
-与每个目录部分做一个CWD相反的是根本不改变目录.此方法要求服务器同时使用整个路径,因此非常快.有时服务器有问题,它不是纯粹符合标准的:
+与CWD相反的是根本不改变目录.此方法要求服务器同时使用整个路径,因此非常快.但有时服务器会有问题,因为它不符合纯粹的标准:
 
 ```
 curl --ftp-method nocwd ftp://example.com/one/two/three/file.txt
@@ -37,9 +37,9 @@ curl --ftp-method nocwd ftp://example.com/one/two/three/file.txt
 > RETR one/two/three/file.txt
 ```
 
-### 单选
+### singlecwd
 
-这是其他两种FTP方法之间的中间点.这使得单一`CWD`命令到目标目录,然后请求给定的文件:
+在以上两种FTP方法之间的是 singlecwd .这使得单一`CWD`命令到目标目录,然后请求给定的文件:
 
 ```
 curl --ftp-method singlecwd ftp://example.com/one/two/three/file.txt
