@@ -98,7 +98,7 @@
     -   [x] [HTTP版本](./book/http-versions.zh.md)
     -   [x] [HTTPS](./book/http-https.zh.md)
     -   [x] [HTTP POST](./book/http-post.zh.md)
-    -   [ ] [多部分表单 POST](./book/http-multipart.zh.md)
+    -   [x] [多部分 表单POST](./book/http-multipart.zh.md)
     -   [ ] [-d vs -F](./book/http-postvspost.zh.md)
     -   [ ] [重定向](./book/http-redirects.zh.md)
     -   [ ] [修改HTTP请求](./book/http-requests.zh.md)
